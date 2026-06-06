@@ -1,0 +1,81 @@
+{
+  "date_range": {
+    "start": "2026-05-30",
+    "end": "2026-06-06"
+  },
+  "report_url": "https://wmwm1ok.github.io/programmatic-news-weekly-publish/",
+  "generated_at": "2026-06-06 18:10",
+  "stats": {
+    "total_kept": 33,
+    "competitor_companies": 18,
+    "industry_count": 10
+  },
+  "highlights": [
+    {
+      "company": "行业资讯",
+      "title": "SymphonyAI 推出 CINDE 零售媒体智能",
+      "summary": "SymphonyAI 发布 CINDE Retail Media Intelligence，面向中大型杂货零售商，把商品、媒体和购物者洞察连接成闭环系统，帮助零售商规划 RMN、优化投放并衡量销售效果。",
+      "date": "2026-06-01",
+      "url": "https://www.symphonyai.com/news/retail-cpg/cinde-retail-media-intelligence-launch/",
+      "is_official": false
+    },
+    {
+      "company": "Magnite",
+      "title": "JioHotstar 扩大使用 Magnite SpringServe",
+      "summary": "JioHotstar 深化与 Magnite 的合作，使用 SpringServe 为直播、体育和娱乐库存提供高级 mediation 能力，提升其流媒体广告的程序化变现与多需求方管理效率。",
+      "date": "2026-06-04",
+      "url": "https://investor.magnite.com/news-releases/news-release-details/jiohotstar-deepens-partnership-magnite-advance-programmatic",
+      "is_official": false
+    },
+    {
+      "company": "PubMatic",
+      "title": "PubMatic 发布 Decision Fabric",
+      "summary": "PubMatic 在 AgenticOS 上推出 Decision Fabric，把合作伙伴的决策模型以容器化方式直接运行在程序化供应路径中，支持实时受众、定价和供应决策，减少外部跳转延迟。",
+      "date": "2026-06-02",
+      "url": "https://martech360.com/news/media-growth/pubmatic-unveils-decision-fabric-on-agenticos-to-bring-ai-powered-decisioning-directly-into-the-programmatic-supply-path/",
+      "is_official": false
+    }
+  ],
+  "quick": [
+    {
+      "company": "行业资讯",
+      "title": "Perion发布程序化DOOH新功能",
+      "summary": "Perion在WOO London 2026发布程序化数字户外新能力，包括Ask Perion、DOOH SOV和Curated Measurement，覆盖规划、保证份额和测量，强化DOOH投放闭环。",
+      "date": "2026-06-03",
+      "url": "https://perion.com/press/perion-launches-new-advanced-features-for-programmatic-digital-out-of-home-at-woo-london-2026/",
+      "is_official": false
+    },
+    {
+      "company": "行业资讯",
+      "title": "NIQ发布Product Intelligence",
+      "summary": "NielsenIQ推出NIQ Product Intelligence，将分散商品数据转化为结构化智能，服务AI驱动的电商场景，可改善商品发现、内容理解和零售媒体相关的数据基础。",
+      "date": "2026-06-02",
+      "url": "https://nielseniq.com/global/en/news-center/2026/niq-launches-product-intelligence-to-power-ai-driven-commerce/",
+      "is_official": false
+    },
+    {
+      "company": "Walmart Connect",
+      "title": "Walmart Connect 接入 Yahoo 与 Magnite",
+      "summary": "Walmart Connect 扩大站外零售媒体网络，与 Yahoo DSP 和 Magnite 合作，支持广告主用 Walmart 第一方数据在更多平台激活与闭环衡量，结束此前对 The Trade Desk 的独家依赖。",
+      "date": "2026-06-02",
+      "url": "https://martechtrend.com/retail-media-networks-walmart/",
+      "is_official": true
+    },
+    {
+      "company": "InMobi",
+      "title": "InMobi 联手 Scope3 推 Agentic Seller",
+      "summary": "InMobi Advertising 与 Scope3 合作，把其优质 CTV 和移动应用内库存接入 Scope3 Interchange，面向 AI buying agents 开放交易，连接基于 AgenticAdvertising 的自动化买方工作流。",
+      "date": "2026-06-03",
+      "url": "https://www.businesswire.com/news/home/20260603665789/en/InMobi-Advertising-Launches-First-Agentic-Seller-Opening-Mobile-and-Exclusive-CTV-Ad-Inventory-to-AI-Buying-Agents",
+      "is_official": false
+    },
+    {
+      "company": "行业资讯",
+      "title": "MarkApp联手VIZIO Ads扩展CTV",
+      "summary": "MarkApp与VIZIO Ads达成战略合作，面向智能电视环境扩大优质CTV广告机会覆盖，帮助广告主、代理商和合作伙伴获取VIZIO生态中的高质量大屏库存。",
+      "date": "2026-06-01",
+      "url": "https://www.exchangewire.com/blog/2026/06/01/markapp-and-vizio-ads-expand-premium-ctvreach-across-smart-tv-environments/",
+      "is_official": false
+    }
+  ]
+}
