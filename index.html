@@ -1,566 +1,587 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>程序化广告竞品周报 2026-05-30 ~ 2026-06-06</title>
-<style>
-:root {
-  --bg: #f5f7fb;
-  --surface: #ffffff;
-  --border: #e3e8f0;
-  --text: #1f2937;
-  --text-muted: #6b7280;
-  --brand: #1677ff;
-  --brand-soft: #e8f1ff;
-  --green: #16a34a;
-  --green-soft: #dcfce7;
-}
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
-    "Microsoft YaHei", "Segoe UI", Roboto, sans-serif;
-  background: var(--bg); color: var(--text); line-height: 1.6;
-}
-a { color: inherit; text-decoration: none; }
-.container { max-width: 880px; margin: 0 auto; padding: 24px; }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>程序化广告竞品及行业资讯 2026-06-01 ~ 2026-06-08</title>
+    <meta name="description" content="程序化广告竞品及行业资讯汇总，涵盖 14 家竞品与重点行业动态。">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="程序化广告竞品及行业资讯 2026-06-01 ~ 2026-06-08">
+    <meta property="og:description" content="程序化广告竞品及行业资讯汇总，涵盖 14 家竞品与重点行业动态。">
+    <meta property="og:url" content="https://wmwm1ok.github.io/programmatic-news-weekly/">
+    <meta property="og:image" content="https://wmwm1ok.github.io/programmatic-news-weekly/assets/programmatic-news-cover.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="程序化广告竞品及行业资讯 2026-06-01 ~ 2026-06-08">
+    <meta name="twitter:description" content="程序化广告竞品及行业资讯汇总，涵盖 14 家竞品与重点行业动态。">
+    <meta name="twitter:image" content="https://wmwm1ok.github.io/programmatic-news-weekly/assets/programmatic-news-cover.jpg">
+    <style>
+        :root {
+            --bg: #eef3f8;
+            --surface: #ffffff;
+            --surface-soft: #f8fbff;
+            --surface-muted: #f5f7fa;
+            --border: #dbe5f0;
+            --border-strong: #c9d9ea;
+            --text: #1f2937;
+            --text-secondary: #4b5563;
+            --text-muted: #6b7280;
+            --brand: #1677ff;
+            --brand-soft: rgba(22, 119, 255, 0.12);
+            --shadow: 0 18px 48px rgba(15, 23, 42, 0.08);
+            --radius-lg: 24px;
+            --radius-md: 18px;
+            --radius-sm: 12px;
+        }
 
-/* Header */
-.header {
-  background: var(--surface); border-radius: 16px; padding: 24px 28px;
-  border: 1px solid var(--border); margin-bottom: 16px;
-}
-.header h1 { font-size: 24px; font-weight: 700; }
-.header-top {
-  display: flex; align-items: center; justify-content: space-between;
-  gap: 12px; flex-wrap: wrap;
-}
-.header-meta { display: flex; gap: 16px; margin-top: 8px; color: var(--text-muted); font-size: 13px; flex-wrap: wrap; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-/* Sticky nav */
-.nav {
-  position: sticky; top: 12px; z-index: 10;
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: 12px; padding: 10px 14px;
-  display: flex; flex-wrap: wrap; gap: 6px; align-items: center;
-  margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.04);
-}
-.nav-chip {
-  font-size: 12.5px; padding: 6px 12px; border-radius: 999px;
-  background: var(--brand-soft); color: var(--brand); white-space: nowrap;
-  transition: background 0.15s;
-}
-.nav-chip:hover { background: var(--brand); color: white; }
-.nav-chip-industry { background: #fff7e6; color: #d97706; }
-.nav-chip-industry:hover { background: #d97706; color: white; }
-.nav-count { opacity: 0.75; font-size: 11px; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.75;
+            color: var(--text);
+            background:
+                radial-gradient(circle at top, rgba(22, 119, 255, 0.08), transparent 30%),
+                var(--bg);
+            padding: clamp(16px, 3vw, 32px);
+        }
 
-/* Section */
-.main-section { margin-bottom: 32px; }
-.section-title {
-  font-size: 18px; font-weight: 600; margin-bottom: 14px;
-  padding-bottom: 8px; border-bottom: 2px solid var(--brand);
-  display: inline-block;
-  scroll-margin-top: 80px;
-}
+        a {
+            color: inherit;
+        }
 
-/* Block row: 单列布局，每家公司块占满整行，从上到下纵向排列 */
-.block-row {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-.company-block {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: 12px; padding: 14px 16px;
-}
-.company-name {
-  font-size: 15px; font-weight: 600;
-  display: flex; align-items: center; gap: 8px; margin-bottom: 10px;
-}
-.company-count {
-  font-size: 11px; padding: 1px 7px; border-radius: 999px;
-  background: var(--brand-soft); color: var(--brand); font-weight: 500;
-}
-.cards { display: flex; flex-direction: column; gap: 10px; }
+        .container {
+            max-width: 1080px;
+            margin: 0 auto;
+            background-color: var(--surface);
+            padding: clamp(20px, 4vw, 44px);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow);
+        }
 
-/* Card */
-.card {
-  display: block; padding: 10px 12px;
-  background: #fbfcfe; border: 1px solid var(--border);
-  border-radius: 8px; transition: all 0.15s;
-}
-.card:hover {
-  border-color: var(--brand); background: #f4f8ff;
-  transform: translateY(-1px);
-}
-.card-meta {
-  display: flex; gap: 8px; align-items: center;
-  font-size: 11px; color: var(--text-muted); margin-bottom: 5px;
-  flex-wrap: wrap;
-}
-.card-date { font-variant-numeric: tabular-nums; }
-.card-source { font-style: italic; }
-.badge {
-  font-size: 10px; padding: 1.5px 6px; border-radius: 4px; font-weight: 600;
-}
-.badge-official { background: var(--green-soft); color: var(--green); }
-.badge-news { background: #f3f4f6; color: #6b7280; }
-.card-title {
-  font-size: 14px; font-weight: 600; margin-bottom: 4px; line-height: 1.4;
-}
-.card-summary {
-  font-size: 12.5px; color: var(--text-muted); line-height: 1.55;
-}
+        .page-header {
+            padding: clamp(20px, 4vw, 32px);
+            background: linear-gradient(135deg, rgba(22, 119, 255, 0.12), rgba(22, 119, 255, 0.04));
+            border: 1px solid rgba(22, 119, 255, 0.12);
+            border-radius: calc(var(--radius-lg) - 4px);
+            margin-bottom: clamp(28px, 4vw, 40px);
+        }
 
-/* 中英切换：默认显示中文，加 .lang-en-mode 切换成英文 */
-body .lang-en { display: none; }
-body.lang-en-mode .lang-zh { display: none; }
-body.lang-en-mode .lang-en { display: revert; }
-/* meta 行里的 badge 是 inline 元素，需要单独处理 */
-body .card-meta .lang-en { display: none; }
-body.lang-en-mode .card-meta .lang-zh { display: none; }
-body.lang-en-mode .card-meta .lang-en { display: inline; }
+        h1 {
+            font-size: clamp(28px, 4vw, 40px);
+            line-height: 1.2;
+            color: #111827;
+            margin-bottom: 10px;
+            letter-spacing: -0.02em;
+        }
 
-.lang-toggle {
-  display: inline-flex;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 3px;
-  font-size: 12px;
-  cursor: pointer;
-  user-select: none;
-}
-.lang-toggle button {
-  border: none; background: transparent; cursor: pointer;
-  padding: 4px 12px; border-radius: 999px;
-  font-size: 12px; font-weight: 600; color: var(--text-muted);
-  font-family: inherit;
-}
-.lang-toggle button.active {
-  background: var(--brand); color: white;
-}
+        .date-range {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            color: var(--brand);
+            background: rgba(255, 255, 255, 0.7);
+            border: 1px solid rgba(22, 119, 255, 0.15);
+            border-radius: 999px;
+            padding: 8px 14px;
+            margin-bottom: 12px;
+        }
 
-.footer {
-  text-align: center; padding: 20px; color: var(--text-muted); font-size: 12px;
-}
+        .report-summary {
+            max-width: 780px;
+            font-size: clamp(15px, 2.2vw, 17px);
+            color: var(--text-secondary);
+        }
 
-@media (max-width: 720px) {
-  .container { padding: 12px; }
-  .header { padding: 16px; }
-  .header h1 { font-size: 19px; }
-}
-</style>
+        .language-switcher {
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 14px;
+        }
+
+        .language-switcher a {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 12px;
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.82);
+            border: 1px solid rgba(22, 119, 255, 0.15);
+            color: var(--brand);
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .language-switcher a:hover {
+            text-decoration: underline;
+        }
+
+        .report-section {
+            margin-top: clamp(28px, 4vw, 40px);
+        }
+
+        h2 {
+            font-size: clamp(20px, 2.6vw, 26px);
+            color: #0f172a;
+            margin: 0 0 18px 0;
+            padding-left: 14px;
+            border-left: 4px solid var(--brand);
+        }
+
+        h3 {
+            font-size: clamp(16px, 2.2vw, 18px);
+            color: var(--text);
+            margin: 0 0 14px 0;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .competitor-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            margin-top: 16px;
+            font-size: 14px;
+        }
+
+        .competitor-table th {
+            background-color: var(--surface-soft);
+            padding: 14px 16px;
+            text-align: left;
+            font-weight: 600;
+            color: var(--text);
+            border-bottom: 1px solid var(--border-strong);
+        }
+
+        .competitor-table th:first-child {
+            border-top-left-radius: var(--radius-md);
+        }
+
+        .competitor-table th:last-child {
+            border-top-right-radius: var(--radius-md);
+        }
+
+        .competitor-table td {
+            padding: 20px 16px;
+            border-bottom: 1px solid var(--border);
+            vertical-align: top;
+            background: var(--surface);
+        }
+
+        .competitor-table tr:hover {
+            background-color: transparent;
+        }
+
+        .competitor-table tr:hover td {
+            background-color: #fcfdff;
+        }
+
+        .company {
+            width: 140px;
+            font-weight: 700;
+            color: var(--brand);
+            white-space: normal;
+            line-height: 1.4;
+        }
+
+        .item-title {
+            font-size: clamp(16px, 2vw, 18px);
+            font-weight: 600;
+            color: #111827;
+            margin-bottom: 10px;
+            line-height: 1.5;
+            overflow-wrap: anywhere;
+        }
+
+        .item-summary {
+            font-size: 15px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+
+        .item-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px 12px;
+            align-items: center;
+            font-size: 13px;
+            color: var(--text-muted);
+            overflow-wrap: anywhere;
+        }
+
+        .item-meta a {
+            color: var(--brand);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .item-meta a:hover {
+            text-decoration: underline;
+        }
+
+        .industry-section {
+            margin-top: 18px;
+        }
+
+        .industry-subsection {
+            margin-bottom: 28px;
+        }
+
+        .industry-item {
+            padding: 18px 20px;
+            background: linear-gradient(180deg, #ffffff 0%, #f9fbff 100%);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            margin-bottom: 14px;
+            box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
+        }
+
+        .industry-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 30px;
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+
+        .stats {
+            background-color: #f0f7ff;
+            padding: 15px 20px;
+            border-radius: var(--radius-sm);
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        .stats strong {
+            color: var(--brand);
+        }
+
+        .footer {
+            margin-top: clamp(32px, 5vw, 48px);
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            font-size: 12px;
+            color: var(--text-muted);
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 0;
+            }
+
+            .container {
+                padding: 18px 16px 28px;
+                border-radius: 0;
+                box-shadow: none;
+                min-height: 100vh;
+            }
+
+            .page-header {
+                padding: 18px 16px;
+                border-radius: var(--radius-md);
+                margin-bottom: 24px;
+            }
+
+            .date-range {
+                font-size: 13px;
+                margin-bottom: 10px;
+            }
+
+            .table-wrapper {
+                overflow: visible;
+            }
+
+            .competitor-table,
+            .competitor-table thead,
+            .competitor-table tbody,
+            .competitor-table tr,
+            .competitor-table td {
+                display: block;
+                width: 100%;
+            }
+
+            .competitor-table {
+                margin-top: 14px;
+            }
+
+            .competitor-table thead {
+                display: none;
+            }
+
+            .competitor-table tbody {
+                display: grid;
+                gap: 14px;
+            }
+
+            .competitor-table tr {
+                padding: 16px;
+                border: 1px solid var(--border);
+                border-radius: var(--radius-md);
+                background: linear-gradient(180deg, #ffffff 0%, #f9fbff 100%);
+                box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
+            }
+
+            .competitor-table td {
+                padding: 0;
+                border: 0;
+                background: transparent;
+            }
+
+            .competitor-table tr:hover td {
+                background: transparent;
+            }
+
+            .company {
+                display: inline-flex;
+                align-items: center;
+                width: fit-content;
+                margin-bottom: 14px;
+                padding: 6px 12px;
+                border-radius: 999px;
+                background: var(--brand-soft);
+                color: var(--brand);
+                font-size: 13px;
+            }
+
+            .item-title {
+                margin-bottom: 8px;
+            }
+
+            .item-summary {
+                font-size: 14px;
+                line-height: 1.75;
+            }
+
+            .industry-item {
+                padding: 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h2 {
+                padding-left: 12px;
+            }
+
+            .page-header {
+                padding: 16px 14px;
+            }
+
+            .competitor-table tr {
+                padding: 14px;
+            }
+
+            .item-meta {
+                gap: 6px 10px;
+                font-size: 12px;
+            }
+        }
+    </style>
 </head>
 <body>
-<div class="container">
-  <div class="header">
-    <div class="header-top">
-      <h1>
-        <span class="lang-zh">程序化广告竞品周报</span>
-        <span class="lang-en">Programmatic Advertising Weekly</span>
-      </h1>
-      <div class="lang-toggle" id="langToggle">
-        <button data-lang="zh" class="active">中文</button>
-        <button data-lang="en">EN</button>
-      </div>
-    </div>
-    <div class="header-meta">
-      <span>📅 2026-05-30 ~ 2026-06-06</span>
-      <span><span class="lang-zh">🏢 17 家公司</span><span class="lang-en">🏢 17 companies</span></span>
-      <span><span class="lang-zh">📰 29 条入选</span><span class="lang-en">📰 29 stories</span></span>
-      <span>🕐 2026-06-06 19:40</span>
-    </div>
-  </div>
-  <nav class="nav"><a href="#dsp" class="nav-chip">DSP <span class="nav-count">(3)</span></a><a href="#ssp" class="nav-chip">SSP <span class="nav-count">(1)</span></a><a href="#ctv-streaming" class="nav-chip">CTV / Streaming <span class="nav-count">(2)</span></a><a href="#ad-network-mmp" class="nav-chip">Ad Network / MMP <span class="nav-count">(8)</span></a><a href="#retail-media" class="nav-chip">Retail Media <span class="nav-count">(2)</span></a><a href="#walled-garden" class="nav-chip">Walled Garden <span class="nav-count">(3)</span></a><a href="#industry" class="nav-chip nav-chip-industry">行业资讯 <span class="nav-count">(10)</span></a></nav>
-  <section class="main-section" id="dsp">
-  <h2 class="section-title">DSP</h2>
-  <div class="block-row"><div class="company-block">
-  <h3 class="company-name">TTD <span class="company-count">2</span></h3>
-  <div class="cards"><a class="card" href="https://ppc.land/the-trade-desk-integrates-utiqs-telco-identity-signals-across-emea/" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-news">媒体</span></span><span class="lang-en"><span class="badge badge-news">Media</span></span>
-    <span class="card-date">2026-06-02</span>
-    <span class="card-source">TTD</span>
-  </div>
-  <div class="card-title lang-zh">The Trade Desk 接入 Utiq 电信身份</div>
-  <div class="card-title lang-en">The Trade Desk integrates Utiq&#x27;s telco identity signals across EMEA</div>
-  <div class="card-summary lang-zh">The Trade Desk 与 Utiq 合作，在 EMEA 将基于电信运营商、经用户同意的广告标识接入其身份框架，供买方在 TTD 平台使用。</div>
-  <div class="card-summary lang-en">The Trade Desk announced a partnership with Utiq to add telco-derived, consented advertising identifiers to its identity framework across EMEA. The integration makes Utiq signals available through The Trade Desk&#x27;s Kokai buying platform.（PPC Land）</div>
-</a><a class="card" href="https://martechseries.com/sales-marketing/programmatic-buying/hightouch-launches-exposure-log-matching-for-the-trade-desk/" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-news">媒体</span></span><span class="lang-en"><span class="badge badge-news">Media</span></span>
-    <span class="card-date">2026-06-01</span>
-    <span class="card-source">TTD</span>
-  </div>
-  <div class="card-title lang-zh">Hightouch上线TTD曝光日志匹配</div>
-  <div class="card-title lang-en">Hightouch Launches Exposure Log Matching for The Trade Desk</div>
-  <div class="card-summary lang-zh">Hightouch发布Exposure Log Matching for The Trade Desk，允许广告主和媒体网络将TTD曝光数据与自有的已授权客户及家庭记录连接，用于受众分析和归因。</div>
-  <div class="card-summary lang-en">Hightouch announced Exposure Log Matching for The Trade Desk, allowing advertisers and media networks to connect campaign exposure data to their own consented customer and household records. The capability resolves The Trade Desk REDS logs directly into a customer&#x27;s warehouse for measurement, reporting and AI analysis.（MarTech Series）</div>
-</a></div>
-</div><div class="company-block">
-  <h3 class="company-name">Viant Technology <span class="company-count">1</span></h3>
-  <div class="cards"><a class="card" href="https://www.insidermonkey.com/blog/viant-dsp-partners-with-ad-fontes-media-on-news-reliability-targeting-1775885/" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-news">媒体</span></span><span class="lang-en"><span class="badge badge-news">Media</span></span>
-    <span class="card-date">2026-06-05</span>
-    <span class="card-source">Viant Technology</span>
-  </div>
-  <div class="card-title lang-zh">Viant 接入 Ad Fontes 新闻可靠性定向</div>
-  <div class="card-title lang-en">Viant (DSP) Partners with Ad Fontes Media on News Reliability Targeting</div>
-  <div class="card-summary lang-zh">Viant 与 Ad Fontes Media 合作，在 CTV 新闻库存中通过 IRIS_ID 启用基于新闻可靠性的定向，帮助买方按媒体可信度激活新闻广告。</div>
-  <div class="card-summary lang-en">Viant Technology Inc. partnered with Ad Fontes Media to enable news reliability-based targeting within Connected TV news inventory through IRIS_ID. The article also notes recent analyst price-target increases and Viant&#x27;s Q1 revenue results.（Insider Monkey）</div>
-</a></div>
-</div></div>
-</section><section class="main-section" id="ssp">
-  <h2 class="section-title">SSP</h2>
-  <div class="block-row"><div class="company-block">
-  <h3 class="company-name">Magnite <span class="company-count">1</span></h3>
-  <div class="cards"><a class="card" href="https://investor.magnite.com/news-releases/news-release-details/dentsu-extends-magnite-partnership-streamline-ctv-activation" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-news">媒体</span></span><span class="lang-en"><span class="badge badge-news">Media</span></span>
-    <span class="card-date">2026-06-03</span>
-    <span class="card-source">Magnite</span>
-  </div>
-  <div class="card-title lang-zh">Magnite 与 dentsu 扩展瑞典 CTV 合作</div>
-  <div class="card-title lang-en">Dentsu extends Magnite partnership to streamline CTV activation across Sweden</div>
-  <div class="card-summary lang-zh">Magnite 宣布与 dentsu 瑞典合作，基于双方既有 EMEA 合作，在优质 CTV 库存上提升激活效率、透明度和智能化交易能力。</div>
-  <div class="card-summary lang-en">Magnite announced a partnership with dentsu in Sweden to support more intelligent, efficient, and transparent CTV activation across premium inventory. The collaboration builds on an existing EMEA partnership using Magnite’s video tools and technology for dentsu’s AMX Premium Video solution.</div>
-</a></div>
-</div></div>
-</section><section class="main-section" id="ctv-streaming">
-  <h2 class="section-title">CTV / Streaming</h2>
-  <div class="block-row"><div class="company-block">
-  <h3 class="company-name">VIZIO / Inscape <span class="company-count">1</span></h3>
-  <div class="cards"><a class="card" href="https://www.exchangewire.com/blog/2026/06/01/markapp-and-vizio-ads-expand-premium-ctvreach-across-smart-tv-environments/" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-news">媒体</span></span><span class="lang-en"><span class="badge badge-news">Media</span></span>
-    <span class="card-date">2026-06-01</span>
-    <span class="card-source">VIZIO / Inscape</span>
-  </div>
-  <div class="card-title lang-zh">MarkApp 联手 VIZIO Ads 扩展 CTV</div>
-  <div class="card-title lang-en">MarkApp and VIZIO Ads Expand Premium CTV Reach Across Smart TV Environments</div>
-  <div class="card-summary lang-zh">MarkApp 与 VIZIO Ads 达成战略合作，帮助广告主、代理和合作伙伴触达 VIZIO 智能电视环境中的优质 CTV 广告机会。</div>
-  <div class="card-summary lang-en">MarkApp announced a strategic collaboration with VIZIO Ads to expand access to premium Connected TV opportunities across smart TV environments. The partnership aims to support advertisers, agencies, and trading partners with scalable CTV activation, improved audience reach, and access to high-quality inventory.（ExchangeWire）</div>
-</a></div>
-</div><div class="company-block">
-  <h3 class="company-name">FreeWheel <span class="company-count">1</span></h3>
-  <div class="cards"><a class="card" href="https://www.advanced-television.com/2026/06/02/freewheel-outernet-partner-on-ctv-ooh-advertising/" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-news">媒体</span></span><span class="lang-en"><span class="badge badge-news">Media</span></span>
-    <span class="card-date">2026-06-02</span>
-    <span class="card-source">FreeWheel</span>
-  </div>
-  <div class="card-title lang-zh">FreeWheel 与 Outernet 推 CTV OOH</div>
-  <div class="card-title lang-en">FreeWheel, Outernet partner on CTV OOH advertising</div>
-  <div class="card-summary lang-zh">FreeWheel 与 Outernet 合作，将 CTV 式广告活动扩展到 Outernet 伦敦屏幕和线下空间；Outernet 将使用 FreeWheel SSP 变现优质库存。</div>
-  <div class="card-summary lang-en">FreeWheel and Outernet announced a partnership to deliver CTV out-of-home advertising campaigns across Outernet’s London screens and spaces. The collaboration lets Outernet leverage FreeWheel’s SSP to monetise inventory and give buyers immersive brand experiences backed by real-time audience measurement.（Advanced Television）</div>
-</a></div>
-</div></div>
-</section><section class="main-section" id="ad-network-mmp">
-  <h2 class="section-title">Ad Network / MMP</h2>
-  <div class="block-row"><div class="company-block">
-  <h3 class="company-name">AppLovin <span class="company-count">1</span></h3>
-  <div class="cards"><a class="card" href="https://www.demandgenreport.com/industry-news/news-brief/wurl-data-backs-advertising-on-streaming-news-channels/53125/" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-news">媒体</span></span><span class="lang-en"><span class="badge badge-news">Media</span></span>
-    <span class="card-date">2026-06-03</span>
-    <span class="card-source">AppLovin</span>
-  </div>
-  <div class="card-title lang-zh">Wurl报告提示FAST新闻广告机会</div>
-  <div class="card-title lang-en">Wurl: Data Backs Advertising on Streaming News Channels</div>
-  <div class="card-summary lang-zh">Wurl《CTV Trends Report》称，广告主若按大类或频道排除新闻，可能错失FAST新闻受众；其强调可用场景级语境定向提高CTV投放精度。</div>
-  <div class="card-summary lang-en">Wurl’s CTV Trends Report argues that advertisers may be missing valuable FAST news audiences by relying on broad genre- and channel-level exclusions. The article says scene-level contextual targeting can give advertisers more precise control before ad breaks.（Demand Gen Report）</div>
-</a></div>
-</div><div class="company-block">
-  <h3 class="company-name">Liftoff <span class="company-count">1</span></h3>
-  <div class="cards"><a class="card" href="https://www.adexchanger.com/mobile/ipo-day-qa-liftoffs-coo-on-catching-a-better-ipo-window/" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-news">媒体</span></span><span class="lang-en"><span class="badge badge-news">Media</span></span>
-    <span class="card-date">2026-06-04</span>
-    <span class="card-source">AdExchanger Full</span>
-  </div>
-  <div class="card-title lang-zh">Liftoff 重启 Nasdaq IPO</div>
-  <div class="card-title lang-en">IPO Day Q&amp;A: Liftoff’s COO On Catching A Better IPO Window</div>
-  <div class="card-summary lang-zh">移动应用营销与效果广告平台 Liftoff 在暂停原 Nasdaq 上市计划三个月后重启 IPO。COO 接受 AdExchanger 采访，解释选择当前窗口上市。</div>
-  <div class="card-summary lang-en">Just over three months after hitting pause on its original Nasdaq debut, Liftoff’s IPO lifted off on Thursday. (Hey, the pun was right there. We had no choice.) The mobile app marketing and performance platform priced its shares at $23 a pop – just above its revised $20 to $22 range – and raised roughly $437 million. [&amp;#8230;] The post IPO Day Q&amp;#038;A: Liftoff’s COO On Catching A Better IPO Window appeared first on AdExchanger .</div>
-</a></div>
-</div><div class="company-block">
-  <h3 class="company-name">mobvista <span class="company-count">1</span></h3>
-  <div class="cards"><a class="card" href="https://quartr.com/events/mobvista-inc-1860-q1-2026_FPQxvmRF" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-official">官方</span></span><span class="lang-en"><span class="badge badge-official">Official</span></span>
-    <span class="card-date">2026-05-31</span>
-    <span class="card-source">mobvista</span>
-  </div>
-  <div class="card-title lang-zh">Mobvista Q1 收入增 32.2%</div>
-  <div class="card-title lang-en">Mobvista (1860) Q1 2026 earnings summary</div>
-  <div class="card-summary lang-zh">Mobvista 2026 年一季度收入 5.813 亿美元，同比增长 32.2%；其中 Mintegral 贡献 5.599 亿美元，占总收入 96.3%，显示其广告平台仍为核心。</div>
-  <div class="card-summary lang-en">Mobvista’s Q1 2026 earnings summary reported US$581.3 million in revenue, up 32.2% year over year. The summary said Mintegral contributed US$559.9 million, or 96.3% of total revenue, and noted continued R&amp;D investment in AI infrastructure and smart bidding products.（Quartr）</div>
-</a></div>
-</div><div class="company-block">
-  <h3 class="company-name">TopOn <span class="company-count">1</span></h3>
-  <div class="cards"><a class="card" href="https://www.toponad.net/en/posts/300000282.html" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-official">官方</span></span><span class="lang-en"><span class="badge badge-official">Official</span></span>
-    <span class="card-date">2026-06-01</span>
-    <span class="card-source">TopOn</span>
-  </div>
-  <div class="card-title lang-zh">TopOn 正式接入 Moloco SDK</div>
-  <div class="card-title lang-en">TopOn Officially Integrates Moloco SDK to Enhance Global Monetization</div>
-  <div class="card-summary lang-zh">TopOn 宣布 Moloco 成为 TopOn Mediation 官方 In-App Bidding 伙伴，发行商可接入 Moloco 全球需求，并通过实时竞价提升应用变现。</div>
-  <div class="card-summary lang-en">TopOn announced that Moloco is now an official In-App Bidding partner on TopOn Mediation. The integration gives publishers access to Moloco’s global demand and supports real-time auctions intended to improve win rates and eCPMs.</div>
-</a></div>
-</div><div class="company-block">
-  <h3 class="company-name">InMobi <span class="company-count">1</span></h3>
-  <div class="cards"><a class="card" href="https://www.businesswire.com/news/home/20260603665789/en/InMobi-Advertising-Launches-First-Agentic-Seller-Opening-Mobile-and-Exclusive-CTV-Ad-Inventory-to-AI-Buying-Agents" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-news">媒体</span></span><span class="lang-en"><span class="badge badge-news">Media</span></span>
-    <span class="card-date">2026-06-03</span>
-    <span class="card-source">InMobi</span>
-  </div>
-  <div class="card-title lang-zh">InMobi接入Scope3 AI买方代理</div>
-  <div class="card-title lang-en">InMobi Advertising Launches First Agentic Seller, Opening Mobile and Exclusive CTV Ad Inventory to AI Buying Agents</div>
-  <div class="card-summary lang-zh">InMobi Advertising与Scope3合作，把优质CTV和移动应用内库存接入Scope3 Interchange，供AI购买代理通过AgenticAdvertising协议访问。</div>
-  <div class="card-summary lang-en">InMobi Advertising announced a strategic partnership with Scope3 to make its premium CTV and mobile in-app supply accessible to AI-powered buying agents on Scope3 Interchange. The connection uses AgenticAdvertising.org’s Ad Context Protocol and is intended to let buying agents submit briefs and receive matched inventory, audience signals, and campaign parameters.（Business Wire）</div>
-</a></div>
-</div><div class="company-block">
-  <h3 class="company-name">AppsFlyer <span class="company-count">1</span></h3>
-  <div class="cards"><a class="card" href="https://www.appsflyer.com/blog/measurement-analytics/onelink-api-growth-scale/" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-official">官方</span></span><span class="lang-en"><span class="badge badge-official">Official</span></span>
-    <span class="card-date">2026-06-02</span>
-    <span class="card-source">AppsFlyer</span>
-  </div>
-  <div class="card-title lang-zh">AppsFlyer发布OneLink API 2.0</div>
-  <div class="card-title lang-en">OneLink API 2.0: The new deep linking infrastructure built for growth and scale</div>
-  <div class="card-summary lang-zh">AppsFlyer推出OneLink API 2.0，作为程序化深度链接基础设施，支持跨渠道创建和治理链接、二维码，并新增程序化QR生成与自定义链接能力。</div>
-  <div class="card-summary lang-en">AppsFlyer introduced OneLink API 2.0 as a programmatic deep-linking layer for creating, governing, and scaling links and QR codes across channels. The update adds programmatic QR generation, custom link expiration controls, and an upgraded developer experience for enterprise-scale workflows.</div>
-</a></div>
-</div><div class="company-block">
-  <h3 class="company-name">Tenjin <span class="company-count">1</span></h3>
-  <div class="cards"><a class="card" href="https://tenjin.com/blog/ad-mon-gaming-2026/" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-official">官方</span></span><span class="lang-en"><span class="badge badge-official">Official</span></span>
-    <span class="card-date">2026-06-04</span>
-    <span class="card-source">Tenjin</span>
-  </div>
-  <div class="card-title lang-zh">Tenjin发布手游广告变现基准</div>
-  <div class="card-title lang-en">Ad Monetization in Mobile Games – Benchmark Report 2026</div>
-  <div class="card-summary lang-zh">Tenjin联合Clever Ads Solutions发布2026手游广告变现基准，披露Q1按平台、广告网络和国家划分的广告收入份额，供移动游戏变现对标。</div>
-  <div class="card-summary lang-en">Tenjin partnered with Clever Ads Solutions to publish benchmark data for mobile game ad monetization, including Q1 2026 ad revenue share by platform, ad network, and country. The report highlights Android at 57% of ad revenue share versus iOS at 43%, and breaks down network leaders such as AppLovin on iOS and Google AdMob on Android.</div>
-</a></div>
-</div><div class="company-block">
-  <h3 class="company-name">Kochava <span class="company-count">1</span></h3>
-  <div class="cards"><a class="card" href="https://www.stateofstreaming.com/articles/ampersand-fandango-kochava-movie-measurement" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-official">官方</span></span><span class="lang-en"><span class="badge badge-official">Official</span></span>
-    <span class="card-date">2026-06-02</span>
-    <span class="card-source">Kochava</span>
-  </div>
-  <div class="card-title lang-zh">Ampersand等推出电视到票房归因</div>
-  <div class="card-title lang-en">Did Ampersand, Fandango, and Kochava Just Make the Theater the Most Measurable Screen for Streaming?</div>
-  <div class="card-summary lang-zh">Ampersand、Fandango与Kochava推出闭环归因合作，将电视广告曝光与已验证电影票销售连接，为片方提供跨屏投放到购票转化衡量。</div>
-  <div class="card-summary lang-en">Ampersand, Fandango, and Kochava launched a closed-loop attribution partnership linking TV campaign exposure to verified movie ticket sales. The article frames the deal as making theatrical advertising a measurable top-of-funnel driver for streaming and film marketing.（State of Streaming）</div>
-</a></div>
-</div></div>
-</section><section class="main-section" id="retail-media">
-  <h2 class="section-title">Retail Media</h2>
-  <div class="block-row"><div class="company-block">
-  <h3 class="company-name">Walmart Connect <span class="company-count">2</span></h3>
-  <div class="cards"><a class="card" href="https://martechtrend.com/retail-media-networks-walmart/" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-official">官方</span></span><span class="lang-en"><span class="badge badge-official">Official</span></span>
-    <span class="card-date">2026-06-02</span>
-    <span class="card-source">Walmart Connect</span>
-  </div>
-  <div class="card-title lang-zh">Walmart Connect扩展Yahoo与Magnite站外投放</div>
-  <div class="card-title lang-en">Walmart Connect Expands Offsite Retail Media With Yahoo, Magnite</div>
-  <div class="card-summary lang-zh">Walmart Connect与Yahoo DSP、Magnite合作扩展站外零售媒体，广告主可用沃尔玛一方数据在更多平台激活受众，并支持闭环衡量。</div>
-  <div class="card-summary lang-en">Walmart Connect is broadening its offsite retail media network through partnerships with Yahoo DSP and Magnite. The article says the move strengthens Walmart’s ability to use first-party data and closed-loop measurement across connected TV and programmatic environments.（MarTech Trend）</div>
-</a><a class="card" href="https://www.marketplacepulse.com/articles/walmart-marketplace-growth-reaches-fastest-pace-in-years" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-official">官方</span></span><span class="lang-en"><span class="badge badge-official">Official</span></span>
-    <span class="card-date">2026-06-04</span>
-    <span class="card-source">Walmart Connect</span>
-  </div>
-  <div class="card-title lang-zh">Walmart市场与广告业务高增长</div>
-  <div class="card-title lang-en">Walmart Marketplace Growth Reaches Fastest Pace in Years</div>
-  <div class="card-summary lang-zh">Marketplace Pulse称，沃尔玛第三方市场在2027财年一季度同比增长近50%；剔除Vizio后，Walmart Connect同期增长44%。</div>
-  <div class="card-summary lang-en">Marketplace Pulse reports that Walmart’s third-party marketplace grew nearly 50% year over year in the first quarter of fiscal 2027. The article notes that Walmart Connect grew 44% excluding Vizio and that third-party advertising spend rose more than 50%.</div>
-</a></div>
-</div></div>
-</section><section class="main-section" id="walled-garden">
-  <h2 class="section-title">Walled Garden</h2>
-  <div class="block-row"><div class="company-block">
-  <h3 class="company-name">Google Ads <span class="company-count">1</span></h3>
-  <div class="cards"><a class="card" href="https://blog.google/products/ads-commerce/youtube-mrc-accreditation-shorts/" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-official">官方</span></span><span class="lang-en"><span class="badge badge-official">Official</span></span>
-    <span class="card-date">2026-06-03</span>
-    <span class="card-source">Google Ads</span>
-  </div>
-  <div class="card-title lang-zh">YouTube Shorts获MRC品牌安全认证</div>
-  <div class="card-title lang-en">YouTube earns industry&#x27;s first MRC accreditation for short-form video.</div>
-  <div class="card-summary lang-zh">YouTube连续第六年获得MRC品牌安全认证，本次首次扩展至YouTube Shorts短视频库存，为广告主在短视频环境中的品牌安全衡量提供第三方背书。</div>
-  <div class="card-summary lang-en">YouTube received Media Rating Council brand safety accreditation for the sixth consecutive year, with the certification expanded to include YouTube Shorts for the first time. Google says the accreditation covers its three inventory suitability tiers and validates YouTube’s brand safety protections for advertisers.（Google Blog）</div>
-</a></div>
-</div><div class="company-block">
-  <h3 class="company-name">Meta Ads <span class="company-count">1</span></h3>
-  <div class="cards"><a class="card" href="https://www.ciotechoutlook.com/news/meta-launches-ai-business-agent-for-sales-automation-nid-14718-cid-127.html" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-official">官方</span></span><span class="lang-en"><span class="badge badge-official">Official</span></span>
-    <span class="card-date">2026-06-04</span>
-    <span class="card-source">Meta Ads</span>
-  </div>
-  <div class="card-title lang-zh">Meta 发布 AI Business Agent</div>
-  <div class="card-title lang-en">Meta Launches AI Business Agent for Sales Automation</div>
-  <div class="card-summary lang-zh">Meta 推出 AI Business Agent，可在 WhatsApp、Messenger 和 Instagram 上自动处理客服、销售与营销互动，支持企业 24/7 回复客户与获取线索。</div>
-  <div class="card-summary lang-en">Meta launched an AI-powered Business Agent that automates customer support, sales, and marketing across WhatsApp, Messenger, and Instagram. The tool is aimed at helping businesses improve efficiency and engage customers around the clock.（CIO TechOutlook）</div>
-</a></div>
-</div><div class="company-block">
-  <h3 class="company-name">Microsoft Advertising <span class="company-count">1</span></h3>
-  <div class="cards"><a class="card" href="https://about.ads.microsoft.com/en/resources/discover/case-studies/akbank-customer-success-story" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-official">官方</span></span><span class="lang-en"><span class="badge badge-official">Official</span></span>
-    <span class="card-date">2026-06-05</span>
-    <span class="card-source">Microsoft Advertising</span>
-  </div>
-  <div class="card-title lang-zh">Akbank用微软受众广告提销量</div>
-  <div class="card-title lang-en">Akbank charges ahead to 12% more credit card sales with high-intent audiences</div>
-  <div class="card-summary lang-zh">Akbank通过Microsoft Audience Ads触达高意向新客，在Optdcom协助下信用卡销量提升12%、CPC下降82%，是金融客户使用微软受众投放的案例。</div>
-  <div class="card-summary lang-en">Akbank grew credit card sales by 12% and lowered CPC by 82% using Microsoft Audience ads to reach new, high-intent customers. The case study details how Akbank, Microsoft Advertising, and Optdcom used in-market audiences and Native placements to drive incremental applications and digital sales.</div>
-</a></div>
-</div></div>
-</section><section class="main-section" id="industry">
-  <h2 class="section-title">行业资讯</h2>
-  <div class="block-row"><div class="company-block">
-  <h3 class="company-name">行业资讯 <span class="company-count">10</span></h3>
-  <div class="cards"><a class="card" href="https://www.marketscreener.com/news/clinch-and-amazon-ads-expand-collaboration-to-support-automated-creative-trafficking-with-amazon-dsp-ce7f5dddd981ff23" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-news">媒体</span></span><span class="lang-en"><span class="badge badge-news">Media</span></span>
-    <span class="card-date">2026-06-04</span>
-    <span class="card-source">Amazon Ads</span>
-  </div>
-  <div class="card-title lang-zh">Clinch打通Amazon DSP创意投放</div>
-  <div class="card-title lang-en">Clinch And Amazon Ads Expand Collaboration To Support Automated Creative Trafficking With Amazon DSP</div>
-  <div class="card-summary lang-zh">Clinch扩大与Amazon Ads合作，支持Amazon DSP自动化创意Trafficking，覆盖流媒体电视、在线视频、展示和移动等全渠道投放流程。</div>
-  <div class="card-summary lang-en">Clinch announced an expanded integration with Amazon DSP, making it one of the initial third-party ad serving providers to deliver a fully automated omnichannel workflow from creative development to media execution. The integration enables two-way sync between Flight Control and Amazon DSP, reducing manual trafficking across streaming TV, online video, display and mobile channels.（MarketScreener）</div>
-</a><a class="card" href="https://ppc.land/amazon-now-lets-amc-users-query-1p-paid-features-for-free-until-end-of-2026/" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-news">媒体</span></span><span class="lang-en"><span class="badge badge-news">Media</span></span>
-    <span class="card-date">2026-06-02</span>
-    <span class="card-source">Amazon Ads</span>
-  </div>
-  <div class="card-title lang-zh">Amazon AMC免费开放一方付费信号</div>
-  <div class="card-title lang-en">Amazon now lets AMC users query 1P paid features for free until end of 2026</div>
-  <div class="card-summary lang-zh">Amazon将Amazon Marketing Cloud中的一方付费功能信号免费开放查询至2026年12月31日，可用于受众创建和效果衡量，降低AMC使用门槛。</div>
-  <div class="card-summary lang-en">Amazon made its first-party paid feature signals in Amazon Marketing Cloud free to query for audience creation and measurement use cases through December 31, 2026. The change removes a cost barrier for advertisers using AMC signals such as Amazon Audience Segment Insights and Amazon Retail Purchases.（PPC Land）</div>
-</a><a class="card" href="https://advertising.amazon.com/en-us/library/news/spider-man-brand-new-day-swings-into-amazon/" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-news">媒体</span></span><span class="lang-en"><span class="badge badge-news">Media</span></span>
-    <span class="card-date">2026-06-02</span>
-    <span class="card-source">Amazon Ads</span>
-  </div>
-  <div class="card-title lang-zh">Sony借Amazon Ads推广蜘蛛侠新片</div>
-  <div class="card-title lang-en">Spider-Man: Brand New Day swings into Amazon with Prime member early screenings, deals, exclusive experiences</div>
-  <div class="card-summary lang-zh">Sony Pictures与Amazon Ads Brand Innovation Lab合作，为《Spider-Man: Brand New Day》设计跨渠道媒体和促销活动，覆盖Amazon广告与零售触点。</div>
-  <div class="card-summary lang-en">Sony Pictures’ Spider-Man: Brand New Day joined forces with Amazon Ads Brand Innovation Lab on a cross-channel media and promotional campaign across Amazon’s advertising and retail offerings. The campaign includes a custom Amazon landing page, Fire TV, Alexa and Twitch integrations, Prime member early screenings and upcoming deals.</div>
-</a><a class="card" href="https://simplywall.st/stocks/us/retail/nyse-bby/best-buy/news/best-buy-ceo-shift-highlights-marketplace-and-retail-media-p" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-news">媒体</span></span><span class="lang-en"><span class="badge badge-news">Media</span></span>
-    <span class="card-date">2026-06-04</span>
-    <span class="card-source">Best Buy Ads</span>
-  </div>
-  <div class="card-title lang-zh">Best Buy新CEO聚焦零售媒体利润</div>
-  <div class="card-title lang-en">Best Buy CEO Shift Highlights Marketplace And Retail Media Profit Focus</div>
-  <div class="card-summary lang-zh">Best Buy CEO交接之际，新管理层将Marketplace与Best Buy Ads列为更高利润增长重点，显示零售媒体在其商业模式中的权重上升。</div>
-  <div class="card-summary lang-en">Best Buy is preparing for a CEO transition as incoming leadership outlines priorities around higher-margin areas such as Marketplace and Best Buy Ads. The article says the focus on retail media and advertising could influence Best Buy&#x27;s revenue mix and future profit drivers.（Simply Wall St）</div>
-</a><a class="card" href="https://investor.magnite.com/news-releases/news-release-details/jiohotstar-deepens-partnership-magnite-advance-programmatic" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-news">媒体</span></span><span class="lang-en"><span class="badge badge-news">Media</span></span>
-    <span class="card-date">2026-06-04</span>
-    <span class="card-source">Magnite</span>
-  </div>
-  <div class="card-title lang-zh">JioHotstar扩大Magnite变现合作</div>
-  <div class="card-title lang-en">JioHotstar Deepens Partnership with Magnite to Advance Programmatic Monetisation and Mediation Across Live Sports and Entertainment Portfolio</div>
-  <div class="card-summary lang-zh">JioHotstar深化与Magnite合作，使用SpringServe为直播、体育和娱乐库存提供高级Mediation，推进其视频与流媒体库存程序化变现。</div>
-  <div class="card-summary lang-en">Magnite announced an expanded partnership with JioHotstar, which is using Magnite’s SpringServe to power advanced mediation across live streaming, sports, and entertainment inventory. The collaboration is aimed at improving programmatic monetisation, ad quality, brand safety, and transparency.</div>
-</a><a class="card" href="https://martech360.com/news/media-growth/pubmatic-unveils-decision-fabric-on-agenticos-to-bring-ai-powered-decisioning-directly-into-the-programmatic-supply-path/" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-news">媒体</span></span><span class="lang-en"><span class="badge badge-news">Media</span></span>
-    <span class="card-date">2026-06-02</span>
-    <span class="card-source">PubMatic</span>
-  </div>
-  <div class="card-title lang-zh">PubMatic发布Decision Fabric</div>
-  <div class="card-title lang-en">PubMatic Unveils Decision Fabric on AgenticOS to Bring AI-Powered Decisioning Directly Into the Programmatic Supply Path</div>
-  <div class="card-summary lang-zh">PubMatic在AgenticOS上推出Decision Fabric，将合作伙伴决策模型容器化并直接运行在程序化供应路径内，用于实时受众和竞价决策。</div>
-  <div class="card-summary lang-en">MarTech360 covered PubMatic&#x27;s launch of Decision Fabric on AgenticOS, describing it as a containerization layer for partner decisioning models. The article said the technology enables real-time audience qualification and decision-making directly inside the auction environment.</div>
-</a><a class="card" href="https://www.symphonyai.com/news/retail-cpg/cinde-retail-media-intelligence-launch/" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-news">媒体</span></span><span class="lang-en"><span class="badge badge-news">Media</span></span>
-    <span class="card-date">2026-06-01</span>
-    <span class="card-source">Retail Media</span>
-  </div>
-  <div class="card-title lang-zh">SymphonyAI推出CINDE零售媒体智能</div>
-  <div class="card-title lang-en">SymphonyAI Launches CINDE Retail Media Intelligence to Connect Merchandising and Media for Mid-to-Large Grocers</div>
-  <div class="card-summary lang-zh">SymphonyAI发布CINDE Retail Media Intelligence，面向中大型杂货零售商，把商品管理、媒体和购物者洞察接入闭环AI平台。</div>
-  <div class="card-summary lang-en">SymphonyAI announced CINDE Retail Media Intelligence, an AI platform for grocers that connects merchandising, media and shopper intelligence in a closed-loop system. The company says it helps retailers and CPG partners see how media dollars affect category turns, trade spend ROI and gross margin.</div>
-</a><a class="card" href="https://thedesk.net/2026/06/samsung-ads-free-streaming-report-reach/" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-news">媒体</span></span><span class="lang-en"><span class="badge badge-news">Media</span></span>
-    <span class="card-date">2026-06-02</span>
-    <span class="card-source">Samsung Ads</span>
-  </div>
-  <div class="card-title lang-zh">Samsung Ads报告FAST收视增长</div>
-  <div class="card-title lang-en">Samsung: Free streaming apps achieving similar reach as broadcast TV</div>
-  <div class="card-summary lang-zh">Samsung Ads的FAST Forward报告称，2022至2026年FAST观看量增长34%，快于订阅流媒体，Samsung TV Plus等平台正扩大广告可触达规模。</div>
-  <div class="card-summary lang-en">Samsung Ads’ FAST Forward report says FAST viewership grew 34% between 2022 and 2026, outpacing subscription streaming growth. The article says Samsung TV Plus and other FAST platforms are offering advertisers scale, targeting, frequency management and interactive or shoppable ad opportunities.（The Desk）</div>
-</a><a class="card" href="https://tenjin.com/blog/tenjin-is-the-first-mmp-to-support-cloudx-ad-revenue-attribution/" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-news">媒体</span></span><span class="lang-en"><span class="badge badge-news">Media</span></span>
-    <span class="card-date">2026-06-03</span>
-    <span class="card-source">Tenjin</span>
-  </div>
-  <div class="card-title lang-zh">Tenjin率先支持CloudX广告收入归因</div>
-  <div class="card-title lang-en">Tenjin is the First MMP to Support CloudX Ad Revenue Attribution</div>
-  <div class="card-summary lang-zh">Tenjin接入CloudX广告聚合收入数据，称成为首个支持CloudX归因的移动MMP，帮助移动发行商回传CloudX广告收入并做渠道归因。</div>
-  <div class="card-summary lang-en">Tenjin now supports CloudX ad mediation revenue, making Tenjin the first mobile measurement partner to offer CloudX attribution for mobile publishers. The integration lets publishers send CloudX ad mediation revenue data directly to Tenjin for campaign-level LTV and ROAS reporting.</div>
-</a><a class="card" href="https://www.adexchanger.com/data-driven-thinking/the-w3c-is-making-a-critical-mistake-about-measuring-advertising-effectiveness/" target="_blank" rel="noopener">
-  <div class="card-meta">
-    <span class="lang-zh"><span class="badge badge-news">媒体</span></span><span class="lang-en"><span class="badge badge-news">Media</span></span>
-    <span class="card-date">2026-06-04</span>
-    <span class="card-source">AdExchanger Full</span>
-  </div>
-  <div class="card-title lang-zh">W3C归因标准引发测量争议</div>
-  <div class="card-title lang-en">The W3C Is Making A Critical Mistake About Measuring Advertising Effectiveness</div>
-  <div class="card-summary lang-zh">W3C拟议的Attribution Level 1浏览器标准正处公开评议期，广告与测量行业担心其对广告效果衡量方式影响重大，需要更多审查。</div>
-  <div class="card-summary lang-en">The W3C’s proposed “Attribution Level 1” browser standard deserves far more scrutiny from the advertising and measurement community than it has so far received. The public comment period remains open through June 10. At a moment when advertisers face enormous pressure to justify spending and many publishers outside the largest platforms are struggling economically, industry [&amp;#8230;] The post The W3C Is Making A Critical Mistake About Measuring Advertising Effectiveness appeared first on AdExchanger .</div>
-</a></div>
-</div></div>
-</section>
+    <div class="container">
+        <header class="page-header">
+            <div class="language-switcher"><a href="/programmatic-news-weekly/en/">English</a></div>
+            <p class="date-range">2026-06-01 ~ 2026-06-08</p>
+            <h1>程序化广告竞品及行业资讯</h1>
+        </header>
+
+        <section class="report-section">
+            <h2>一、竞品资讯</h2>
+            <div class="table-wrapper">
+                <table class="competitor-table">
+                    <thead>
+                        <tr>
+                            <th style="width: 140px;">公司</th>
+                            <th>内容</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+  <td class="company">TTD</td>
+  <td>
+    <p class="item-title">The Trade Desk Announces Nate Olmstead as Chief Financial Officer Press Release June 01, 2026</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-01 · <a href="https://www.thetradedesk.com/press-room/the-trade-desk-announces-nate-olmstead-as-chief-financial-officer" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">Taboola</td>
+  <td>
+    <p class="item-title">Will Rising Profit Estimates Shift Taboola.com&#x27;s (TBLA) AI and Buyback-Focused Investment Narrative?</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-03 · <a href="https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWExEbmhuVW9Bb0tZU2h2SlhBSXdWR2FPLXBpUF9ESno0U2JySVdKUnRJOFV6N3c5d1VJVlF3QnlkZExTeUFCUm4xSE5WWVpHMHJ4bC1mWDhjQ0hHLUxoV2FKVFphZnhwVTFuVlhaMDhIQzdadjF3dGYwRklnb2ZVTXpPa09HNTBSNnhvbENDYU9ibVYwSEJNdzJ1a0thN19jZVp4RjBwd1BOQ1RsNGs3WEtveDRZUFlvN2ZLNWJnT21tdVpETjhZdnp4eVFxNlpoSFRWeTd3akNzYW5iOTc1aQ?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">Taboola</td>
+  <td>
+    <p class="item-title">Taboola Announces Inclusion in Russell 3000® and 2000® Index</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-03 · <a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxNT1ZIRXhNbUlxOHZFd05lSmFnSEFSYnVnN1M4UW9Tby11YkxUeWlUZklIOGdROEstLTFJSE1oYkZoN0tKcDRtd3hDT3luSEZJQkVBZWlubVgyM0pnenhSdXlFc0FJTE56WTVNSG41OE8xcDJJV1ZWZmwwdkplQ3I4QW43bTZ1cjdtMmZUU0xjRHV0T1Z1R01iU1VBX0ZEamdob2p0VzFvZzBFcWRZbWNlUnNnc2paaUNfSkFicS1ETUlPWEtEMUVLR3h5TTLSAdIBQVVfeXFMTzRHNUFaTW1qVUFXZlZKRGM0LUc1SVdyWS1ST2FkYThaY2FDUW5veXBudkdOd2l5R3EtdzBWVWpGOUVEMTctWlJUakZ3MGxVTGQ1dW1TQWtNdEMyZGRDM0pQdVZqYmpjRWZXb21TdFMzUzBqbDBHelY2Vm9mZ3hVXzVjZHlaS2dZdjd0aVZCQlNGZ3VHanZEN2kwV3ZfdmV1U0xEbmViRXliMjZDNnhNNjJweWtnOXphV1dQa2oxV2NUaTY1bnJhem82NEFxVlVsekxn?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">Teads</td>
+  <td>
+    <p class="item-title">Teads links planning to activation with Havas Converged.AI audience API deal</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-03 · <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxOeE9ILXFweDFPN3RwZnU3cC12WnVmUnBXb2lCTW4wUHJzUVA2b3pFbXA4cWFlQlJCVlIxQ2RsSkdWWkZTdk0yVzZiT0tJeG5vbElhUnBNVWwtZ0F5TzdJemRJcWlVMG53cldxcnZXRXBWdUdUMmt4Y2ZlTlVYdlpaeTUwd2lKeW9TVk5FUFoySVdKMm5vTXYtLWpR?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">AppLovin</td>
+  <td>
+    <p class="item-title">Declaration of Voting Results by AppLovin Corporation</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-05 · <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaWVCYm9ZZ2djbnZGdXd0UFNFUGdUOEZxQ1N1UnlWMVBUdXNlZmJ0RUFUdGhFR3lFUWVTeEJXTEp3R1ZTOE9NSC03bGdqRWJUVS05a0pzR1F5OERpSmROR1ZjZklkQjVKMEFBeXRhVjltS1Vac0xoTDgxc3NLTUViVjJjQ0VKX0tldk13Znc4N01CQlpyeDNYT2VGUFFuRGdudXBDU2hHbnBHZw?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">AppLovin</td>
+  <td>
+    <p class="item-title">AppLovin Is Maintained at Buy by Citigroup</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-02 · <a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYUhkWlFLVGFENHdXU3FiZ0ZUOTYxcnFHUlFleEh5bVZLQjJESnJ0SFU1ckhFLUIxUkpCbFdHM2c0QzdYN2tLeUVoT3lpMmJ1bnVMbk5WT0hjMUtwRlp2OGMtblBPLUJhYzU4WmNEMTIweUZfdjR2UDctcGJJQ2dWcno0T0M1WjdMZmp3UXhuR1FCMGFYdl9aNnRTQThiYTk1RHloN2FjOVQxaWVzV2F1QThFVGx5SkI1STFB?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">mobvista</td>
+  <td>
+    <p class="item-title">Mobvista Q1 2026 group revenue up 32.2% to $581.3 million</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-01 · <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxPdkRWaElNdlhvNTk3V0h5YW1WYzd2ZDc3bWx4Z3BTV1RJVlljWXppaUJScWtmQV9ncW54MlVDYkNGc3cxaGpyM3RtMGFfYm9TbWhydlFJeVVPem5ILU1mc1R4RExiWGpjVDdJWG4tVV9mLVhJcWpJRU9YdFZrTFQ5cnB1bEQxemNUUUsxWVRTSGNuanZQaHhzS0IwODhlQ29IZGlhT1hIM3NxR00z?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">mobvista</td>
+  <td>
+    <p class="item-title">Mobvista (1860.HK) Delivers Solid 2026 Q1 Performance Fueled by AI-Driven Advertising</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-01 · <a href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMVpkWHkwMU03WFB1ZHhwN1VzX2xLaG5ET3FJZmxkSk91REVvaXR1d1JOMURGalBKbjJJbGpoSDJPRXk0eTlHMHdwUlYwRkNSTlpwQ19mb0lNVHdvVFM4eHowRVl3MlZNMVhNSEQ2ZGVDWmt6bHJFeU9NMG1DUDBrQzAxNk1DSllVR2hWdmx5bnY4b2xLLUgtNmo3c3V0WG5URU8tMVJObW1idG5rMHBPdHFCaWk5TkM0S1lId3VIRWJHUm4tTG5tT09fZllvY0xMV3N2VnFnaw?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">TopOn</td>
+  <td>
+    <p class="item-title">TopOn Officially Integrates Moloco SDK to Enhance Global Monetization</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-01 · <a href="https://www.toponad.net/en/posts/300000282.html" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">Unity</td>
+  <td>
+    <p class="item-title">Unity&#x27;s AI and Create monetization upside, China momentum key takeaways from exec meet: Morgan Stanley</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-07 · <a href="https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQ1dYdkM3dk1WU2RWdW84NmxjcnR3Q0kwLUF4LWJmS3daQmdoSE1BeFl3OG1IemVqckdNNHJuaXUyUDk4ZlkxMlozcmpraDhtY19zN2dMTmUxSUVRUWtmUnJ0Ql82ajZPQl9vOWJBRXdWWEQ3N2tPWm9mTi1kYUdjVzhieC1feDU0X2VBUEZVZ0l0aHI0ZmtJVEdUd0t4YzY0RWZqVmxmSjR0anJGckZzRUlCaHZsMHBpSHZaZ2FWRXJqMTN4LTNNUWZrdC1DeEc3ZmJVLXBUZkViUG45OE1nV0N0RWlvUGlzcnc?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">Viant Technology</td>
+  <td>
+    <p class="item-title">Viant reveals ad tech partnership with LG Ad Solutions</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-04 · <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTFAtcm1NbDh5WWc2cmtfaVFCNFcyNEtDaUxXV0RLZ0hJOWZwU0JsM1pJeDgyd1dhT0wzT1M4X1QzakhxMXEyRHg2UEExcE01emF4Y0NNT0xGZUFsMTdHUFZfUUhsUU5TOG9kM3Bz?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">Zeta Global</td>
+  <td>
+    <p class="item-title">Zeta Global Announces Olympic Gold Medalist, Entrepreneur and Founder Lindsey Vonn as Second Zeta Live 2026 Keynote Speaker</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-01 · <a href="https://investors.zetaglobal.com/news/news-details/2026/Zeta-Global-Announces-Olympic-Gold-Medalist-Entrepreneur-and-Founder-Lindsey-Vonn-as-Second-Zeta-Live-2026-Keynote-Speaker/default.aspx" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">PubMatic</td>
+  <td>
+    <p class="item-title">PubMatic expands agentic advertising platform</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-03 · <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNLWtUc2hYY1lJb2p2dEZxSjFLekxrZU4yVmNXdFB5bkxyNjBZM1Y4MWZncUstZ1VQOEFIVl9xMmNwcTlhWkc2QTZBTGs1YXNfTk9vcVE5RWhiWkowR256VlZEbTBFWlVoQXBnbVNzbi1NbW1IZXR6OFNDSUc2M0hNTHBlaWNQZkRReVdNcG9TTkpETGVVZlkyVGt6RQ?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">PubMatic</td>
+  <td>
+    <p class="item-title">PubMatic Brings Real-Time Data AI Models To Programmatic Ad Auctions 06/04/2026</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-03 · <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQdUJGMFh0RHNyUlptaHp1MEdtbHZUZkNXakN2TGNIRk9PNWo0S3kzQUdLaWgyTVdsSGktYzY4V1BLQzkyZm81UmY4QjY0bnFrMHRYM1lTQVdIcGxvZkQydEFJV2VrWWxIRjMybWI2aU1tZUVQbi04R2ZvSlJWd3BIY3lka3lNUzRCamFqVWVsbVRpSnhyZHhzaXd2a1FEYzN2NWRmX1B3M2NzNENFclE?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">Magnite</td>
+  <td>
+    <p class="item-title">JioHotstar taps Magnite SpringServe for programmatic mediation across India&#x27;s biggest sports streams</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-04 · <a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWUhTZE1tX2tYZk9Ec3VzMUtaMFlpdF9iSzgza3laLXQ1Zk9TMzAtSEo0WVMzZ1hVNi1uNzRhNGFyQjZ6WWRMdGFPMmo3M2ZHZUlxdkYwbHpBMnlUSlh2ZW1JWnY2STNxdWl5UTJnMFNDemdzQkFLb052RVIyblh5U3NhVnJMNzlnVEZkYWs2WWZLUGNncVJXVldfQ2M3S2pZNW4tblZUQkMyRTBEOS1BVGc2YTVKNENf?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">Magnite</td>
+  <td>
+    <p class="item-title">Walmart Connect expands offsite advertising ambitions with Yahoo, Magnite</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-01 · <a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxPZTZpSVpPRVhUNzhTXzhFQkNWd0ZLdWRvdjkyT2NTQTRyaDZZWFhuU3Q0Zm5GZ0dWRWhielIyMHVWN2FOcHZaRmNpTlVYaXdsWlNkUHRIU0tKM2xoSEp6LW04UDNHOThNb0QzeVNHRERfVXJvcWh5SWJPdkxrb0ZoRmhHOXQxQlo2VkF6VS1oVjMtSVNFc3dhc2dOWk93QVlJaUVXb2JBT0pQOXhaNXVlQmtWdzBGUQ?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="report-section">
+            <h2>二、行业资讯</h2>
+            <div class="industry-section">
+                <div class="industry-subsection">
+  <h3>📰 AdExchanger</h3>
+  <div class="industry-item">
+  <p class="item-title">[Gaming] Roblox Opens Up Advertising To Kids Under 13</p>
+  <p class="item-summary">无摘要</p>
+  <p class="item-meta">2026-06-04 · <a href="https://www.adexchanger.com/gaming/roblox-opens-up-advertising-to-kids-under-13/" target="_blank" rel="noopener">原文链接</a></p>
+</div><div class="industry-item">
+  <p class="item-title">[Mobile] IPO Day Q&amp;A: Liftoff’s COO On Catching A Better IPO Window</p>
+  <p class="item-summary">无摘要</p>
+  <p class="item-meta">2026-06-04 · <a href="https://www.adexchanger.com/mobile/ipo-day-qa-liftoffs-coo-on-catching-a-better-ipo-window/" target="_blank" rel="noopener">原文链接</a></p>
+</div><div class="industry-item">
+  <p class="item-title">[Data-Driven Thinking] The W3C Is Making A Critical Mistake About Measuring Advertising Effectiveness</p>
+  <p class="item-summary">无摘要</p>
+  <p class="item-meta">2026-06-04 · <a href="https://www.adexchanger.com/data-driven-thinking/the-w3c-is-making-a-critical-mistake-about-measuring-advertising-effectiveness/" target="_blank" rel="noopener">原文链接</a></p>
+</div><div class="industry-item">
+  <p class="item-title">[CTV roundup] Better Attribution Makes Live Sports A Performance Play</p>
+  <p class="item-summary">无摘要</p>
+  <p class="item-meta">2026-06-05 · <a href="https://www.adexchanger.com/ctv-roundup/better-attribution-makes-live-sports-a-performance-play/" target="_blank" rel="noopener">原文链接</a></p>
+</div><div class="industry-item">
+  <p class="item-title">[Daily News Roundup] Cheaper ChatGPT Ads, Same Black Box; Google’s New AI Search Analytics</p>
+  <p class="item-summary">无摘要</p>
+  <p class="item-meta">2026-06-05 · <a href="https://www.adexchanger.com/daily-news-roundup/friday-05062026/" target="_blank" rel="noopener">原文链接</a></p>
 </div>
-<script>
-(function() {
-  var toggle = document.getElementById('langToggle');
-  if (!toggle) return;
-  var saved = localStorage.getItem('weeklyLang') || 'zh';
-  applyLang(saved);
-  toggle.addEventListener('click', function(e) {
-    var btn = e.target.closest('button[data-lang]');
-    if (!btn) return;
-    applyLang(btn.dataset.lang);
-  });
-  function applyLang(lang) {
-    document.body.classList.toggle('lang-en-mode', lang === 'en');
-    document.documentElement.lang = lang === 'en' ? 'en' : 'zh-CN';
-    toggle.querySelectorAll('button').forEach(function(b) {
-      b.classList.toggle('active', b.dataset.lang === lang);
-    });
-    localStorage.setItem('weeklyLang', lang);
-  }
-})();
-</script>
+</div>
+            </div>
+        </section>
+        
+        <div class="footer">
+            本报告由自动化系统生成 · 2026-06-08 10:05
+        </div>
+    </div>
 </body>
 </html>
