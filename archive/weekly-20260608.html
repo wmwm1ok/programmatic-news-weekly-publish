@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>程序化广告竞品及行业资讯 2026-06-01 ~ 2026-06-08</title>
+    <meta name="description" content="程序化广告竞品及行业资讯汇总，涵盖 14 家竞品与重点行业动态。">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="程序化广告竞品及行业资讯 2026-06-01 ~ 2026-06-08">
+    <meta property="og:description" content="程序化广告竞品及行业资讯汇总，涵盖 14 家竞品与重点行业动态。">
+    <meta property="og:url" content="https://wmwm1ok.github.io/programmatic-news-weekly/">
+    <meta property="og:image" content="https://wmwm1ok.github.io/programmatic-news-weekly/assets/programmatic-news-cover.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="程序化广告竞品及行业资讯 2026-06-01 ~ 2026-06-08">
+    <meta name="twitter:description" content="程序化广告竞品及行业资讯汇总，涵盖 14 家竞品与重点行业动态。">
+    <meta name="twitter:image" content="https://wmwm1ok.github.io/programmatic-news-weekly/assets/programmatic-news-cover.jpg">
+    <style>
+        :root {
+            --bg: #eef3f8;
+            --surface: #ffffff;
+            --surface-soft: #f8fbff;
+            --surface-muted: #f5f7fa;
+            --border: #dbe5f0;
+            --border-strong: #c9d9ea;
+            --text: #1f2937;
+            --text-secondary: #4b5563;
+            --text-muted: #6b7280;
+            --brand: #1677ff;
+            --brand-soft: rgba(22, 119, 255, 0.12);
+            --shadow: 0 18px 48px rgba(15, 23, 42, 0.08);
+            --radius-lg: 24px;
+            --radius-md: 18px;
+            --radius-sm: 12px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.75;
+            color: var(--text);
+            background:
+                radial-gradient(circle at top, rgba(22, 119, 255, 0.08), transparent 30%),
+                var(--bg);
+            padding: clamp(16px, 3vw, 32px);
+        }
+
+        a {
+            color: inherit;
+        }
+
+        .container {
+            max-width: 1080px;
+            margin: 0 auto;
+            background-color: var(--surface);
+            padding: clamp(20px, 4vw, 44px);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow);
+        }
+
+        .page-header {
+            padding: clamp(20px, 4vw, 32px);
+            background: linear-gradient(135deg, rgba(22, 119, 255, 0.12), rgba(22, 119, 255, 0.04));
+            border: 1px solid rgba(22, 119, 255, 0.12);
+            border-radius: calc(var(--radius-lg) - 4px);
+            margin-bottom: clamp(28px, 4vw, 40px);
+        }
+
+        h1 {
+            font-size: clamp(28px, 4vw, 40px);
+            line-height: 1.2;
+            color: #111827;
+            margin-bottom: 10px;
+            letter-spacing: -0.02em;
+        }
+
+        .date-range {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            color: var(--brand);
+            background: rgba(255, 255, 255, 0.7);
+            border: 1px solid rgba(22, 119, 255, 0.15);
+            border-radius: 999px;
+            padding: 8px 14px;
+            margin-bottom: 12px;
+        }
+
+        .report-summary {
+            max-width: 780px;
+            font-size: clamp(15px, 2.2vw, 17px);
+            color: var(--text-secondary);
+        }
+
+        .language-switcher {
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 14px;
+        }
+
+        .language-switcher a {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 12px;
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.82);
+            border: 1px solid rgba(22, 119, 255, 0.15);
+            color: var(--brand);
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .language-switcher a:hover {
+            text-decoration: underline;
+        }
+
+        .report-section {
+            margin-top: clamp(28px, 4vw, 40px);
+        }
+
+        h2 {
+            font-size: clamp(20px, 2.6vw, 26px);
+            color: #0f172a;
+            margin: 0 0 18px 0;
+            padding-left: 14px;
+            border-left: 4px solid var(--brand);
+        }
+
+        h3 {
+            font-size: clamp(16px, 2.2vw, 18px);
+            color: var(--text);
+            margin: 0 0 14px 0;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .competitor-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            margin-top: 16px;
+            font-size: 14px;
+        }
+
+        .competitor-table th {
+            background-color: var(--surface-soft);
+            padding: 14px 16px;
+            text-align: left;
+            font-weight: 600;
+            color: var(--text);
+            border-bottom: 1px solid var(--border-strong);
+        }
+
+        .competitor-table th:first-child {
+            border-top-left-radius: var(--radius-md);
+        }
+
+        .competitor-table th:last-child {
+            border-top-right-radius: var(--radius-md);
+        }
+
+        .competitor-table td {
+            padding: 20px 16px;
+            border-bottom: 1px solid var(--border);
+            vertical-align: top;
+            background: var(--surface);
+        }
+
+        .competitor-table tr:hover {
+            background-color: transparent;
+        }
+
+        .competitor-table tr:hover td {
+            background-color: #fcfdff;
+        }
+
+        .company {
+            width: 140px;
+            font-weight: 700;
+            color: var(--brand);
+            white-space: normal;
+            line-height: 1.4;
+        }
+
+        .item-title {
+            font-size: clamp(16px, 2vw, 18px);
+            font-weight: 600;
+            color: #111827;
+            margin-bottom: 10px;
+            line-height: 1.5;
+            overflow-wrap: anywhere;
+        }
+
+        .item-summary {
+            font-size: 15px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+
+        .item-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px 12px;
+            align-items: center;
+            font-size: 13px;
+            color: var(--text-muted);
+            overflow-wrap: anywhere;
+        }
+
+        .item-meta a {
+            color: var(--brand);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .item-meta a:hover {
+            text-decoration: underline;
+        }
+
+        .industry-section {
+            margin-top: 18px;
+        }
+
+        .industry-subsection {
+            margin-bottom: 28px;
+        }
+
+        .industry-item {
+            padding: 18px 20px;
+            background: linear-gradient(180deg, #ffffff 0%, #f9fbff 100%);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            margin-bottom: 14px;
+            box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
+        }
+
+        .industry-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 30px;
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+
+        .stats {
+            background-color: #f0f7ff;
+            padding: 15px 20px;
+            border-radius: var(--radius-sm);
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        .stats strong {
+            color: var(--brand);
+        }
+
+        .footer {
+            margin-top: clamp(32px, 5vw, 48px);
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            font-size: 12px;
+            color: var(--text-muted);
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 0;
+            }
+
+            .container {
+                padding: 18px 16px 28px;
+                border-radius: 0;
+                box-shadow: none;
+                min-height: 100vh;
+            }
+
+            .page-header {
+                padding: 18px 16px;
+                border-radius: var(--radius-md);
+                margin-bottom: 24px;
+            }
+
+            .date-range {
+                font-size: 13px;
+                margin-bottom: 10px;
+            }
+
+            .table-wrapper {
+                overflow: visible;
+            }
+
+            .competitor-table,
+            .competitor-table thead,
+            .competitor-table tbody,
+            .competitor-table tr,
+            .competitor-table td {
+                display: block;
+                width: 100%;
+            }
+
+            .competitor-table {
+                margin-top: 14px;
+            }
+
+            .competitor-table thead {
+                display: none;
+            }
+
+            .competitor-table tbody {
+                display: grid;
+                gap: 14px;
+            }
+
+            .competitor-table tr {
+                padding: 16px;
+                border: 1px solid var(--border);
+                border-radius: var(--radius-md);
+                background: linear-gradient(180deg, #ffffff 0%, #f9fbff 100%);
+                box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
+            }
+
+            .competitor-table td {
+                padding: 0;
+                border: 0;
+                background: transparent;
+            }
+
+            .competitor-table tr:hover td {
+                background: transparent;
+            }
+
+            .company {
+                display: inline-flex;
+                align-items: center;
+                width: fit-content;
+                margin-bottom: 14px;
+                padding: 6px 12px;
+                border-radius: 999px;
+                background: var(--brand-soft);
+                color: var(--brand);
+                font-size: 13px;
+            }
+
+            .item-title {
+                margin-bottom: 8px;
+            }
+
+            .item-summary {
+                font-size: 14px;
+                line-height: 1.75;
+            }
+
+            .industry-item {
+                padding: 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h2 {
+                padding-left: 12px;
+            }
+
+            .page-header {
+                padding: 16px 14px;
+            }
+
+            .competitor-table tr {
+                padding: 14px;
+            }
+
+            .item-meta {
+                gap: 6px 10px;
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="page-header">
+            <div class="language-switcher"><a href="/programmatic-news-weekly/en/">English</a></div>
+            <p class="date-range">2026-06-01 ~ 2026-06-08</p>
+            <h1>程序化广告竞品及行业资讯</h1>
+        </header>
+
+        <section class="report-section">
+            <h2>一、竞品资讯</h2>
+            <div class="table-wrapper">
+                <table class="competitor-table">
+                    <thead>
+                        <tr>
+                            <th style="width: 140px;">公司</th>
+                            <th>内容</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+  <td class="company">TTD</td>
+  <td>
+    <p class="item-title">The Trade Desk Announces Nate Olmstead as Chief Financial Officer Press Release June 01, 2026</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-01 · <a href="https://www.thetradedesk.com/press-room/the-trade-desk-announces-nate-olmstead-as-chief-financial-officer" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">Taboola</td>
+  <td>
+    <p class="item-title">Will Rising Profit Estimates Shift Taboola.com&#x27;s (TBLA) AI and Buyback-Focused Investment Narrative?</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-03 · <a href="https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWExEbmhuVW9Bb0tZU2h2SlhBSXdWR2FPLXBpUF9ESno0U2JySVdKUnRJOFV6N3c5d1VJVlF3QnlkZExTeUFCUm4xSE5WWVpHMHJ4bC1mWDhjQ0hHLUxoV2FKVFphZnhwVTFuVlhaMDhIQzdadjF3dGYwRklnb2ZVTXpPa09HNTBSNnhvbENDYU9ibVYwSEJNdzJ1a0thN19jZVp4RjBwd1BOQ1RsNGs3WEtveDRZUFlvN2ZLNWJnT21tdVpETjhZdnp4eVFxNlpoSFRWeTd3akNzYW5iOTc1aQ?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">Taboola</td>
+  <td>
+    <p class="item-title">Taboola Announces Inclusion in Russell 3000® and 2000® Index</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-03 · <a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxNT1ZIRXhNbUlxOHZFd05lSmFnSEFSYnVnN1M4UW9Tby11YkxUeWlUZklIOGdROEstLTFJSE1oYkZoN0tKcDRtd3hDT3luSEZJQkVBZWlubVgyM0pnenhSdXlFc0FJTE56WTVNSG41OE8xcDJJV1ZWZmwwdkplQ3I4QW43bTZ1cjdtMmZUU0xjRHV0T1Z1R01iU1VBX0ZEamdob2p0VzFvZzBFcWRZbWNlUnNnc2paaUNfSkFicS1ETUlPWEtEMUVLR3h5TTLSAdIBQVVfeXFMTzRHNUFaTW1qVUFXZlZKRGM0LUc1SVdyWS1ST2FkYThaY2FDUW5veXBudkdOd2l5R3EtdzBWVWpGOUVEMTctWlJUakZ3MGxVTGQ1dW1TQWtNdEMyZGRDM0pQdVZqYmpjRWZXb21TdFMzUzBqbDBHelY2Vm9mZ3hVXzVjZHlaS2dZdjd0aVZCQlNGZ3VHanZEN2kwV3ZfdmV1U0xEbmViRXliMjZDNnhNNjJweWtnOXphV1dQa2oxV2NUaTY1bnJhem82NEFxVlVsekxn?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">Teads</td>
+  <td>
+    <p class="item-title">Teads links planning to activation with Havas Converged.AI audience API deal</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-03 · <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxOeE9ILXFweDFPN3RwZnU3cC12WnVmUnBXb2lCTW4wUHJzUVA2b3pFbXA4cWFlQlJCVlIxQ2RsSkdWWkZTdk0yVzZiT0tJeG5vbElhUnBNVWwtZ0F5TzdJemRJcWlVMG53cldxcnZXRXBWdUdUMmt4Y2ZlTlVYdlpaeTUwd2lKeW9TVk5FUFoySVdKMm5vTXYtLWpR?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">AppLovin</td>
+  <td>
+    <p class="item-title">Declaration of Voting Results by AppLovin Corporation</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-05 · <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaWVCYm9ZZ2djbnZGdXd0UFNFUGdUOEZxQ1N1UnlWMVBUdXNlZmJ0RUFUdGhFR3lFUWVTeEJXTEp3R1ZTOE9NSC03bGdqRWJUVS05a0pzR1F5OERpSmROR1ZjZklkQjVKMEFBeXRhVjltS1Vac0xoTDgxc3NLTUViVjJjQ0VKX0tldk13Znc4N01CQlpyeDNYT2VGUFFuRGdudXBDU2hHbnBHZw?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">AppLovin</td>
+  <td>
+    <p class="item-title">AppLovin Is Maintained at Buy by Citigroup</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-02 · <a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYUhkWlFLVGFENHdXU3FiZ0ZUOTYxcnFHUlFleEh5bVZLQjJESnJ0SFU1ckhFLUIxUkpCbFdHM2c0QzdYN2tLeUVoT3lpMmJ1bnVMbk5WT0hjMUtwRlp2OGMtblBPLUJhYzU4WmNEMTIweUZfdjR2UDctcGJJQ2dWcno0T0M1WjdMZmp3UXhuR1FCMGFYdl9aNnRTQThiYTk1RHloN2FjOVQxaWVzV2F1QThFVGx5SkI1STFB?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">mobvista</td>
+  <td>
+    <p class="item-title">Mobvista Q1 2026 group revenue up 32.2% to $581.3 million</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-01 · <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxPdkRWaElNdlhvNTk3V0h5YW1WYzd2ZDc3bWx4Z3BTV1RJVlljWXppaUJScWtmQV9ncW54MlVDYkNGc3cxaGpyM3RtMGFfYm9TbWhydlFJeVVPem5ILU1mc1R4RExiWGpjVDdJWG4tVV9mLVhJcWpJRU9YdFZrTFQ5cnB1bEQxemNUUUsxWVRTSGNuanZQaHhzS0IwODhlQ29IZGlhT1hIM3NxR00z?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">mobvista</td>
+  <td>
+    <p class="item-title">Mobvista (1860.HK) Delivers Solid 2026 Q1 Performance Fueled by AI-Driven Advertising</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-01 · <a href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMVpkWHkwMU03WFB1ZHhwN1VzX2xLaG5ET3FJZmxkSk91REVvaXR1d1JOMURGalBKbjJJbGpoSDJPRXk0eTlHMHdwUlYwRkNSTlpwQ19mb0lNVHdvVFM4eHowRVl3MlZNMVhNSEQ2ZGVDWmt6bHJFeU9NMG1DUDBrQzAxNk1DSllVR2hWdmx5bnY4b2xLLUgtNmo3c3V0WG5URU8tMVJObW1idG5rMHBPdHFCaWk5TkM0S1lId3VIRWJHUm4tTG5tT09fZllvY0xMV3N2VnFnaw?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">TopOn</td>
+  <td>
+    <p class="item-title">TopOn Officially Integrates Moloco SDK to Enhance Global Monetization</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-01 · <a href="https://www.toponad.net/en/posts/300000282.html" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">Unity</td>
+  <td>
+    <p class="item-title">Unity&#x27;s AI and Create monetization upside, China momentum key takeaways from exec meet: Morgan Stanley</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-07 · <a href="https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQ1dYdkM3dk1WU2RWdW84NmxjcnR3Q0kwLUF4LWJmS3daQmdoSE1BeFl3OG1IemVqckdNNHJuaXUyUDk4ZlkxMlozcmpraDhtY19zN2dMTmUxSUVRUWtmUnJ0Ql82ajZPQl9vOWJBRXdWWEQ3N2tPWm9mTi1kYUdjVzhieC1feDU0X2VBUEZVZ0l0aHI0ZmtJVEdUd0t4YzY0RWZqVmxmSjR0anJGckZzRUlCaHZsMHBpSHZaZ2FWRXJqMTN4LTNNUWZrdC1DeEc3ZmJVLXBUZkViUG45OE1nV0N0RWlvUGlzcnc?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">Viant Technology</td>
+  <td>
+    <p class="item-title">Viant reveals ad tech partnership with LG Ad Solutions</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-04 · <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTFAtcm1NbDh5WWc2cmtfaVFCNFcyNEtDaUxXV0RLZ0hJOWZwU0JsM1pJeDgyd1dhT0wzT1M4X1QzakhxMXEyRHg2UEExcE01emF4Y0NNT0xGZUFsMTdHUFZfUUhsUU5TOG9kM3Bz?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">Zeta Global</td>
+  <td>
+    <p class="item-title">Zeta Global Announces Olympic Gold Medalist, Entrepreneur and Founder Lindsey Vonn as Second Zeta Live 2026 Keynote Speaker</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-01 · <a href="https://investors.zetaglobal.com/news/news-details/2026/Zeta-Global-Announces-Olympic-Gold-Medalist-Entrepreneur-and-Founder-Lindsey-Vonn-as-Second-Zeta-Live-2026-Keynote-Speaker/default.aspx" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">PubMatic</td>
+  <td>
+    <p class="item-title">PubMatic expands agentic advertising platform</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-03 · <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNLWtUc2hYY1lJb2p2dEZxSjFLekxrZU4yVmNXdFB5bkxyNjBZM1Y4MWZncUstZ1VQOEFIVl9xMmNwcTlhWkc2QTZBTGs1YXNfTk9vcVE5RWhiWkowR256VlZEbTBFWlVoQXBnbVNzbi1NbW1IZXR6OFNDSUc2M0hNTHBlaWNQZkRReVdNcG9TTkpETGVVZlkyVGt6RQ?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">PubMatic</td>
+  <td>
+    <p class="item-title">PubMatic Brings Real-Time Data AI Models To Programmatic Ad Auctions 06/04/2026</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-03 · <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQdUJGMFh0RHNyUlptaHp1MEdtbHZUZkNXakN2TGNIRk9PNWo0S3kzQUdLaWgyTVdsSGktYzY4V1BLQzkyZm81UmY4QjY0bnFrMHRYM1lTQVdIcGxvZkQydEFJV2VrWWxIRjMybWI2aU1tZUVQbi04R2ZvSlJWd3BIY3lka3lNUzRCamFqVWVsbVRpSnhyZHhzaXd2a1FEYzN2NWRmX1B3M2NzNENFclE?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">Magnite</td>
+  <td>
+    <p class="item-title">JioHotstar taps Magnite SpringServe for programmatic mediation across India&#x27;s biggest sports streams</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-04 · <a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWUhTZE1tX2tYZk9Ec3VzMUtaMFlpdF9iSzgza3laLXQ1Zk9TMzAtSEo0WVMzZ1hVNi1uNzRhNGFyQjZ6WWRMdGFPMmo3M2ZHZUlxdkYwbHpBMnlUSlh2ZW1JWnY2STNxdWl5UTJnMFNDemdzQkFLb052RVIyblh5U3NhVnJMNzlnVEZkYWs2WWZLUGNncVJXVldfQ2M3S2pZNW4tblZUQkMyRTBEOS1BVGc2YTVKNENf?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+<tr>
+  <td class="company">Magnite</td>
+  <td>
+    <p class="item-title">Walmart Connect expands offsite advertising ambitions with Yahoo, Magnite</p>
+    <p class="item-summary">无摘要</p>
+    <p class="item-meta">2026-06-01 · <a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxPZTZpSVpPRVhUNzhTXzhFQkNWd0ZLdWRvdjkyT2NTQTRyaDZZWFhuU3Q0Zm5GZ0dWRWhielIyMHVWN2FOcHZaRmNpTlVYaXdsWlNkUHRIU0tKM2xoSEp6LW04UDNHOThNb0QzeVNHRERfVXJvcWh5SWJPdkxrb0ZoRmhHOXQxQlo2VkF6VS1oVjMtSVNFc3dhc2dOWk93QVlJaUVXb2JBT0pQOXhaNXVlQmtWdzBGUQ?oc=5" target="_blank" rel="noopener">原文链接</a></p>
+  </td>
+</tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="report-section">
+            <h2>二、行业资讯</h2>
+            <div class="industry-section">
+                <div class="industry-subsection">
+  <h3>📰 AdExchanger</h3>
+  <div class="industry-item">
+  <p class="item-title">[Gaming] Roblox Opens Up Advertising To Kids Under 13</p>
+  <p class="item-summary">无摘要</p>
+  <p class="item-meta">2026-06-04 · <a href="https://www.adexchanger.com/gaming/roblox-opens-up-advertising-to-kids-under-13/" target="_blank" rel="noopener">原文链接</a></p>
+</div><div class="industry-item">
+  <p class="item-title">[Mobile] IPO Day Q&amp;A: Liftoff’s COO On Catching A Better IPO Window</p>
+  <p class="item-summary">无摘要</p>
+  <p class="item-meta">2026-06-04 · <a href="https://www.adexchanger.com/mobile/ipo-day-qa-liftoffs-coo-on-catching-a-better-ipo-window/" target="_blank" rel="noopener">原文链接</a></p>
+</div><div class="industry-item">
+  <p class="item-title">[Data-Driven Thinking] The W3C Is Making A Critical Mistake About Measuring Advertising Effectiveness</p>
+  <p class="item-summary">无摘要</p>
+  <p class="item-meta">2026-06-04 · <a href="https://www.adexchanger.com/data-driven-thinking/the-w3c-is-making-a-critical-mistake-about-measuring-advertising-effectiveness/" target="_blank" rel="noopener">原文链接</a></p>
+</div><div class="industry-item">
+  <p class="item-title">[CTV roundup] Better Attribution Makes Live Sports A Performance Play</p>
+  <p class="item-summary">无摘要</p>
+  <p class="item-meta">2026-06-05 · <a href="https://www.adexchanger.com/ctv-roundup/better-attribution-makes-live-sports-a-performance-play/" target="_blank" rel="noopener">原文链接</a></p>
+</div><div class="industry-item">
+  <p class="item-title">[Daily News Roundup] Cheaper ChatGPT Ads, Same Black Box; Google’s New AI Search Analytics</p>
+  <p class="item-summary">无摘要</p>
+  <p class="item-meta">2026-06-05 · <a href="https://www.adexchanger.com/daily-news-roundup/friday-05062026/" target="_blank" rel="noopener">原文链接</a></p>
+</div>
+</div>
+            </div>
+        </section>
+        
+        <div class="footer">
+            本报告由自动化系统生成 · 2026-06-08 10:05
+        </div>
+    </div>
+</body>
+</html>
