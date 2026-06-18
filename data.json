@@ -4,9 +4,9 @@
     "end": "2026-06-17"
   },
   "report_url": "https://wmwm1ok.github.io/programmatic-news-weekly-publish/",
-  "generated_at": "2026-06-18 09:59",
+  "generated_at": "2026-06-18 10:08",
   "stats": {
-    "total_kept": 31,
+    "total_kept": 32,
     "competitor_companies": 17,
     "industry_count": 8
   },
@@ -54,6 +54,14 @@
       "is_official": false
     },
     {
+      "company": "DoubleVerify",
+      "title": "DoubleVerify 推 YouTube 音频适配报告",
+      "summary": "DoubleVerify 推出面向 YouTube Audio Ads 的 AI 品牌适配性报告，帮助广告主在音频广告活动中评估媒体质量和品牌安全，扩展其 YouTube 验证能力。",
+      "date": "2026-06-11",
+      "url": "https://www.ainvest.com/de/news/doubleverify-launches-ai-powered-brand-suitability-reporting-youtube-audio-ads-2606/",
+      "is_official": false
+    },
+    {
       "company": "Teads",
       "title": "Teads 推 EngageOS 并接入 Magnite",
       "summary": "Teads 发布 AI 驱动的出版商信息流平台 EngageOS，将编辑推荐和广告需求放入同一实时决策层；与 Magnite 的整合可为出版商引入更多程序化需求。",
@@ -76,18 +84,10 @@
       "date": "2026-06-17",
       "url": "https://www.ainvest.com/news/magnite-10-7-jump-51-ctv-rating-2606/",
       "is_official": false
-    },
-    {
-      "company": "Criteo",
-      "title": "Criteo 四季度收入仅增 0.6%",
-      "summary": "Criteo 披露 2025 年四季度业绩，收入同比增长 0.6%，且 EPS 不及预期。作为效果广告和零售媒体技术竞品，其低增长对市场需求和竞争格局有参考价值。",
-      "date": "2026-06-15",
-      "url": "http://www.trueplookpanya.com/knowledge/content/67205/-blog-blo-?live-news-12490853-2026-06-15-earnings-report-crto-criteo-posts-q4-2025-eps-miss-and-0-6-percent-year-over-yea",
-      "is_official": false
     }
   ],
   "cardTitle": "程序化广告周报 | 06/10-06/17",
-  "cardBody": "📌 核心趋势\n\n• CTV 广告入口正在加速集中化，平台、电视操作系统和首页库存成为流媒体广告竞争的新控制点。\n• 零售媒体继续从站内广告扩展到 CTV、数据衡量和跨渠道归因，Walmart 等零售商正把交易数据转化为更广泛的媒体基础设施。\n• 程序化广告工作流正从人工配置走向 Agentic AI 自动化，覆盖 CTV 采买、活动搭建、SPO 和媒体规划等环节。\n• 广告质量衡量正在从传统可见性与品牌安全，升级到注意力、内容级适配、音频与播客场景的预竞价和投后控制。\n• 隐私、拍卖透明度和广告披露监管压力持续上升，推动行业在无 Cookie 身份、数据合作和平台治理上重新调整。\n\n🏷 代表性新闻\n\n1. Walmart 高管谈零售媒体与 AI 布局\n2. FranceTV Publicité 扩大 FreeWheel 合作\n3. Teads 推 EngageOS 并接入 Magnite\n4. Pacers 推出体育零售媒体网络\n5. Magnite 推 Orchestration 平台\n6. Criteo 四季度收入仅增 0.6%",
+  "cardBody": "📌 核心趋势\n\n• CTV 广告入口正在向电视操作系统、首页和大屏数据层集中，Fox 拟收购 Roku、Walmart 借 Vizio/Inscape 强化电视数据资产、Samsung Ads 将电视首页广告开放给 The Trade Desk 和 DV360，显示客厅大屏的控制权正在成为程序化广告竞争核心。\n• 零售媒体正从站内广告增长走向跨平台数据与闭环衡量扩张，Walmart Connect Q1 增长 44%并与 Google 合作开放购买洞察，Best Buy Canada 选择 Perion 支持零售媒体业务，SMG 推出英国 retail media exchange，说明零售商和技术平台都在加速把交易、数据和归因产品化。\n• AI 正在进入程序化广告的投放、规划、SPO 和创意执行工作流，Amazon Ads 在澳洲推出 Ads Agent，Magnite 推出 Orchestration 平台，Mediaocean 的 NIVO AI 通过 Innovid 代理将活动设置时间减少 90%，PubMatic 与 Havas 用 AgenticOS 执行 CTV 活动，显示代理式广告操作正在从概念走向实际交易。\n• 媒体质量评估正在从传统可见性和品牌安全扩展到注意力、音频语境和内容级控制，IAS 与 Spotify/The Trade Desk 推播客单集级预竞价优化，Amazon DSP 接入 Adelaide 注意力定向，DoubleVerify 为 YouTube Audio Ads 和 Meta Threads 推出 AI 驱动的品牌适配与内容级控制。\n• 广告主对可衡量的跨媒体效果需求继续上升，MNTN 接入 HubSpot 打通 CTV 与 CRM/收入归因，OAAA 与 Kochava 用研究证明 OOH 效果提升可达电视两倍，Google 与 Walmart Connect 合作引入零售购买数据衡量，说明预算分配越来越依赖下游业务结果而非单一曝光指标。\n\n🏷 代表性新闻\n\n1. Walmart 高管谈零售媒体与 AI 布局\n2. FranceTV Publicité 扩大 FreeWheel 合作\n3. DoubleVerify 推 YouTube 音频适配报告\n4. Teads 推 EngageOS 并接入 Magnite\n5. Pacers 推出体育零售媒体网络\n6. Magnite 推 Orchestration 平台",
   "buttonText": "📊 查看完整周报",
   "pcUrl": "https://wmwm1ok.github.io/programmatic-news-weekly-publish/",
   "mobileUrl": "https://wmwm1ok.github.io/programmatic-news-weekly-publish/"

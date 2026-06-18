@@ -7,7 +7,7 @@ period: 2026-06-10 ~ 2026-06-17
 # 程序化广告竞品资讯 0610-0617
 
 - 报告周期：2026-06-10 ~ 2026-06-17
-- 生成时间：2026-06-18 09:59
+- 生成时间：2026-06-18 10:08
 
 ## 一、竞品资讯
 
@@ -106,6 +106,12 @@ _2026-06-11 · [原文链接](https://www.globenewswire.com/de/news-release/2026
 DoubleVerify 在 Meta Threads 上推出 AI 驱动的内容级品牌保护控制，支持广告投放前避开不适合内容，增强品牌安全与适配管理。
 
 _2026-06-17 · [原文链接](https://industryjournalmaine.com/article/913439373-doubleverify-launches-ai-powered-content-level-controls-on-meta-threads-strengthening-brand-protection)_
+
+#### DoubleVerify · DoubleVerify 推 YouTube 音频适配报告
+
+DoubleVerify 推出面向 YouTube Audio Ads 的 AI 品牌适配性报告，帮助广告主在音频广告活动中评估媒体质量和品牌安全，扩展其 YouTube 验证能力。
+
+_2026-06-11 · [原文链接](https://www.ainvest.com/de/news/doubleverify-launches-ai-powered-brand-suitability-reporting-youtube-audio-ads-2606/)_
 
 #### IAS · IAS 推 Total Visibility 自动SPO
 
@@ -216,4 +222,4 @@ Albertsons Media Collective 发布号称行业首创的 branded entertainment �
 _2026-06-17 · [原文链接](https://news.google.com/rss/articles/CBMi3AFBVV95cUxQc2tnUXA5YlZWcTltVmJOR3BpV2VCbEk2YjZrQUNST1RBak5nOFZlbU1OcUJNdXBXY2dfYXo1UVZ0UWdSVUxfN2J5NENtVnJsaEN2ZTNaVFlhX3VMeFFtV3dhOFRieG9zeEFEZGpncnlHVXNZby00RlJ3WUxMbENGbXdpTnZpWGMyc2R1eFJaS0FsVE5pSzdnZXNYVnMzQURZa3RndE1IV3J5OTlrRXRBQkhGUWZDZFlnVWl6Vk1QX0RqRlp6X0EtWjF2b1otdng5LVVhTHZOejd2Rk8w?oc=5)_
 
 ---
-_由 hardcore 链路自动生成 · 2026-06-18 09:59_
+_由 hardcore 链路自动生成 · 2026-06-18 10:08_
