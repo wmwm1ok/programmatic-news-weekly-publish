@@ -4,7 +4,7 @@
     "end": "2026-06-17"
   },
   "report_url": "https://wmwm1ok.github.io/programmatic-news-weekly-publish/",
-  "generated_at": "2026-06-17 19:44",
+  "generated_at": "2026-06-18 09:59",
   "stats": {
     "total_kept": 31,
     "competitor_companies": 17,
@@ -70,24 +70,24 @@
       "is_official": false
     },
     {
+      "company": "Magnite",
+      "title": "Magnite 推 Orchestration 平台",
+      "summary": "报道除股价表现外，还提到 Magnite 新推出 Orchestration 平台，支持代理式工作流；其 CTV 业务贡献占 ex-TAC 收入 51%，显示收入结构向 CTV 倾斜。",
+      "date": "2026-06-17",
+      "url": "https://www.ainvest.com/news/magnite-10-7-jump-51-ctv-rating-2606/",
+      "is_official": false
+    },
+    {
       "company": "Criteo",
       "title": "Criteo 四季度收入仅增 0.6%",
       "summary": "Criteo 披露 2025 年四季度业绩，收入同比增长 0.6%，且 EPS 不及预期。作为效果广告和零售媒体技术竞品，其低增长对市场需求和竞争格局有参考价值。",
       "date": "2026-06-15",
       "url": "http://www.trueplookpanya.com/knowledge/content/67205/-blog-blo-?live-news-12490853-2026-06-15-earnings-report-crto-criteo-posts-q4-2025-eps-miss-and-0-6-percent-year-over-yea",
       "is_official": false
-    },
-    {
-      "company": "行业资讯",
-      "title": "MiQ 为 Sigma 增加 AI 规划衡量",
-      "summary": "MiQ 扩展 Sigma 工具，新增 AI 驱动的媒体规划与衡量能力，包括更大的数据底座、新测量工具，以及面向澳大利亚和新西兰市场的本地化适配。",
-      "date": "2026-06-12",
-      "url": "https://www.bandt.com.au/miq-launches-planning-measurement-capabilities-on-sigma/",
-      "is_official": false
     }
   ],
   "cardTitle": "程序化广告周报 | 06/10-06/17",
-  "cardBody": "📌 核心趋势\n\n• CTV 广告入口正在被平台和媒体集团重新整合，Fox 收购 Roku、Walmart 借 Vizio/Inscape 入局、Samsung 开放电视首页程序化购买，显示客厅大屏库存和操作系统层成为新竞争焦点。\n• 零售媒体从站内广告加速走向跨渠道数据闭环，Walmart Connect、Best Buy Canada、SMG、Pacers 和 Albertsons 等案例表明零售商正把购买数据、会员关系和内容场景转化为可交易媒体资产。\n• Agentic AI 正从概念进入广告投放工作流，Amazon Ads、PubMatic、Magnite、Mediaocean/Innovid 和 MiQ 等公司都在用 AI 自动化规划、建站、采买、优化和衡量环节。\n• 程序化交易质量控制继续前移，IAS、DoubleVerify、Adelaide 等通过预竞价优化、注意力定向、品牌适配和内容级控制，把安全、质量和效果信号嵌入 DSP/SSP 交易链路。\n• 归因和身份替代方案仍是后 Cookie 时代的核心基础设施，LiveRamp、MNTN/HubSpot、Google Privacy Sandbox 相关讨论显示行业虽受 Cookie 延期影响，但仍在推进第一方数据和跨渠道衡量能力。\n\n🏷 代表性新闻\n\n1. Walmart 高管谈零售媒体与 AI 布局\n2. FranceTV Publicité 扩大 FreeWheel 合作\n3. Teads 推 EngageOS 并接入 Magnite\n4. Pacers 推出体育零售媒体网络\n5. Criteo 四季度收入仅增 0.6%\n6. MiQ 为 Sigma 增加 AI 规划衡量",
+  "cardBody": "📌 核心趋势\n\n• CTV 广告入口正在加速集中化，平台、电视操作系统和首页库存成为流媒体广告竞争的新控制点。\n• 零售媒体继续从站内广告扩展到 CTV、数据衡量和跨渠道归因，Walmart 等零售商正把交易数据转化为更广泛的媒体基础设施。\n• 程序化广告工作流正从人工配置走向 Agentic AI 自动化，覆盖 CTV 采买、活动搭建、SPO 和媒体规划等环节。\n• 广告质量衡量正在从传统可见性与品牌安全，升级到注意力、内容级适配、音频与播客场景的预竞价和投后控制。\n• 隐私、拍卖透明度和广告披露监管压力持续上升，推动行业在无 Cookie 身份、数据合作和平台治理上重新调整。\n\n🏷 代表性新闻\n\n1. Walmart 高管谈零售媒体与 AI 布局\n2. FranceTV Publicité 扩大 FreeWheel 合作\n3. Teads 推 EngageOS 并接入 Magnite\n4. Pacers 推出体育零售媒体网络\n5. Magnite 推 Orchestration 平台\n6. Criteo 四季度收入仅增 0.6%",
   "buttonText": "📊 查看完整周报",
   "pcUrl": "https://wmwm1ok.github.io/programmatic-news-weekly-publish/",
   "mobileUrl": "https://wmwm1ok.github.io/programmatic-news-weekly-publish/"
