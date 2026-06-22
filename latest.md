@@ -7,17 +7,11 @@ period: 2026-06-15 ~ 2026-06-22
 # 程序化广告竞品资讯 0615-0622
 
 - 报告周期：2026-06-15 ~ 2026-06-22
-- 生成时间：2026-06-22 07:48
+- 生成时间：2026-06-22 09:51
 
 ## 一、竞品资讯
 
 ### SSP
-
-#### PubMatic · PubMatic推出创作者市场
-
-PubMatic 发布 Creator Marketplace，旨在连接内容创作者与新兴 agentic demand，为创作者内容提供程序化需求入口，并扩展 SSP 侧可交易媒体供给。
-
-_2026-06-18 · [原文链接](https://news.google.com/rss/articles/CBMivgFBVV95cUxNVkplcmk4cDZKbUlvRWhBQU05X1FmVnZvbzdGblViOE9aejd1VzZUellnTzZOSVJac21VVVNnUllaR2lSd05EcHVMRDVEQ0ZfbElnSy1qeHMxa1hOR1ZOZkRFX0JnRVFjcWdfaWVxRzBkWjRiZlVyQll0Y1VwN3l4MWRWN3MzdzljWjRtaHViQjJVYVdWakMyR2hSZXlKd2t4elRVZGhfVXFQNk13bWYwd2U3dlpxMnRMSXNsMFJn?oc=5)_
 
 #### Magnite · Magnite携手Viasat拓展机上广告
 
@@ -114,4 +108,4 @@ Albertsons 在其零售媒体网络中引入 microdramas 短剧形态，将品�
 _2026-06-18 · [原文链接](https://news.google.com/rss/articles/CBMigwFBVV95cUxQUE9pRFZpY2ZxX1NSM0U4NENqMjNsVFgxVTd6TFZramhCNzVUMkZ5bmVzU0ZWMUFqRzJ2Sl92dGFCdmxLdmJTLXhOdE16NDVscTR5ZDZvR0xQUi1heG1HOGdNR2RGdzJBci1EMVNTM05IWjNweFpkb2xYRWN6VDh1QmQ1OA?oc=5)_
 
 ---
-_由 hardcore 链路自动生成 · 2026-06-22 07:48_
+_由 hardcore 链路自动生成 · 2026-06-22 09:51_

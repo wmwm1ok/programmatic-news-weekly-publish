@@ -4,10 +4,10 @@
     "end": "2026-06-22"
   },
   "report_url": "https://wmwm1ok.github.io/programmatic-news-weekly-publish/",
-  "generated_at": "2026-06-22 07:48",
+  "generated_at": "2026-06-22 09:51",
   "stats": {
-    "total_kept": 15,
-    "competitor_companies": 10,
+    "total_kept": 14,
+    "competitor_companies": 9,
     "industry_count": 5
   },
   "highlights": [
@@ -46,14 +46,6 @@
       "is_official": false
     },
     {
-      "company": "PubMatic",
-      "title": "PubMatic推出创作者市场",
-      "summary": "PubMatic 发布 Creator Marketplace，旨在连接内容创作者与新兴 agentic demand，为创作者内容提供程序化需求入口，并扩展 SSP 侧可交易媒体供给。",
-      "date": "2026-06-18",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVkplcmk4cDZKbUlvRWhBQU05X1FmVnZvbzdGblViOE9aejd1VzZUellnTzZOSVJac21VVVNnUllaR2lSd05EcHVMRDVEQ0ZfbElnSy1qeHMxa1hOR1ZOZkRFX0JnRVFjcWdfaWVxRzBkWjRiZlVyQll0Y1VwN3l4MWRWN3MzdzljWjRtaHViQjJVYVdWakMyR2hSZXlKd2t4elRVZGhfVXFQNk13bWYwd2U3dlpxMnRMSXNsMFJn?oc=5",
-      "is_official": false
-    },
-    {
       "company": "Roku",
       "title": "Smartly与Roku打通CTV效果投放",
       "summary": "Smartly.io 与 Roku 合作，把社交媒体效果广告的创意、优化和投放方法扩展到家庭大屏，帮助广告主在 Roku CTV 环境中执行更偏效果导向的广告活动。",
@@ -84,10 +76,18 @@
       "date": "2026-06-16",
       "url": "https://www.ainvest.com/es/news/walmart-advertising-revenues-surge-commerce-growth-2606/",
       "is_official": false
+    },
+    {
+      "company": "Kroger Precision Marketing",
+      "title": "Kroger Q1：KPM助推数字增长",
+      "summary": "Kroger 一季度收入超预期，调整后电商销售增长 19%。报道同时提到 Kroger Precision Marketing 等数字业务表现，为其零售媒体收入提供支撑。",
+      "date": "2026-06-18",
+      "url": "https://www.streetinsider.com/Earnings/Kroger%2Bmeets%2Bearnings%2Bexpectations%2C%2Brevenue%2Btops%2Bestimates/26662778.html",
+      "is_official": false
     }
   ],
   "cardTitle": "程序化广告周报 | 06/15-06/22",
-  "cardBody": "📌 核心趋势（Top 3）\n\n1. NIQ与Unlimitail推RMN测量合作\n2. Chalice AI与OpenX推出视频策展\n3. LiveRamp推出AI Agent伙伴计划\n\n━━━━━━━━━━━━━━━━\n\n📰 代表性新闻\n\n1. DoubleVerify发布AI引擎DV Neura\n2. PubMatic推出创作者市场\n3. Smartly与Roku打通CTV效果投放\n4. PubMatic推出Creator Marketplace\n5. Taboola推出AI答案引擎广告平台\n6. Walmart Connect一季度增长44%\n\n👉 点击下方按钮查看完整报告",
+  "cardBody": "📌 核心趋势（Top 3）\n\n1. CTV 与视频程序化库存正在从传统流媒体扩展到更多封闭和高价值场景…\n2. 零售媒体网络继续成为大型零售商增长引擎…\n3. AI 正在重塑广告技术栈的入口、优化和验证环节…\n\n━━━━━━━━━━━━━━━━\n\n📰 代表性新闻\n\n1. DoubleVerify发布AI引擎DV Neura\n2. Smartly与Roku打通CTV效果投放\n3. PubMatic推出Creator Marketplace\n4. Taboola推出AI答案引擎广告平台\n5. Walmart Connect一季度增长44%\n6. Kroger Q1：KPM助推数字增长\n\n👉 点击下方按钮查看完整报告",
   "buttonText": "📊 查看完整周报",
   "pcUrl": "https://wmwm1ok.github.io/programmatic-news-weekly-publish/",
   "mobileUrl": "https://wmwm1ok.github.io/programmatic-news-weekly-publish/"
