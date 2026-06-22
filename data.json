@@ -4,90 +4,90 @@
     "end": "2026-06-22"
   },
   "report_url": "https://wmwm1ok.github.io/programmatic-news-weekly-publish/",
-  "generated_at": "2026-06-22 09:51",
+  "generated_at": "2026-06-22 11:18",
   "stats": {
-    "total_kept": 14,
-    "competitor_companies": 9,
-    "industry_count": 5
+    "total_kept": 28,
+    "competitor_companies": 13,
+    "industry_count": 9
   },
   "highlights": [
     {
-      "company": "行业资讯",
-      "title": "NIQ与Unlimitail推RMN测量合作",
-      "summary": "NIQ与Unlimitail合作推出下一代全渠道零售媒体洞察与测量能力。背景数据显示，67%的CMO计划在2026年增加RMN投入，但仅53%认可现有测量能力。",
-      "date": "2026-06-20",
-      "url": "https://www.sttinfo.fi/tiedote/72142064/niq-and-unlimitail-collaborate-to-deliver-the-next-generation-of-omnichannel-retail-media-insights-and-measurement-across-retailers-and-countries?publisherId=58763726&lang=en",
+      "company": "Magnite",
+      "title": "Philo 通过 Magnite、Index 等上线暂停广告",
+      "summary": "流媒体服务 Philo 推出 pause ads 暂停广告格式，并通过 Magnite、Index Exchange 及另外六家 SSP 合作伙伴接入程序化需求，扩展 CTV 库存变现。",
+      "date": "2026-06-21",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUzAzMmlfSndIbV9DY0d5NFhBdTZwLXpLNVVYN0lDc0xiTHl5Vnpyc2JBVjNyTnpoRTBqZVFZOF9Lbl9rTk5pVjdKa2N2QWNyX0R1ZUdKTnRhZGx2OVhYdFRpdG8zUUoxdlRqNHF4MDNpVm9paFBfWWk3UFpRV09KZ0NJaDhXZi1FX2s3MlIzOUIwX0VJ?oc=5",
       "is_official": false
     },
     {
-      "company": "OpenX",
-      "title": "Chalice AI与OpenX推出视频策展",
-      "summary": "Chalice AI 与 OpenX 合作，将 AI 驱动的 curation 能力用于高质量视频库存，帮助买方在 OpenX 供应中更精准地筛选、打包和激活视频广告机会。",
-      "date": "2026-06-16",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYnd0SF9senhPR3A5bV9yVml4R2sydl8tZmFVNlVtVWo2U0pqQU9hU19oTlhoWGppVk14UkROVWxsdnRIRWtyQzYyTElENGpGTEp4SWljS3JzUndXYmxXbjNqanZoYmNqdDFiZ1cyTUlsQ3g1OHQ5NjU2UzI0WnVidjM0ZVV5bUJYZ0tvUnJrSm15T2c1TlYzWXc0WWl1YWEtWElUZWs5NDE2UQ?oc=5",
+      "company": "DoubleVerify",
+      "title": "DoubleVerify 推出 DV Neura 广告智能引擎",
+      "summary": "DoubleVerify 发布 DV Neura，定位为面向广告验证与媒体工作流的 AI 引擎，支持 agentic AI 流程，覆盖验证、优化和媒体执行等场景。",
+      "date": "2026-06-19",
+      "url": "https://itbrief.in/story/doubleverify-launches-dv-neura-for-agentic-ad-workflows",
       "is_official": false
     },
     {
-      "company": "LiveRamp",
-      "title": "LiveRamp推出AI Agent伙伴计划",
-      "summary": "LiveRamp 发布 LiveRamp Agent Builders，允许合作伙伴构建的 AI agents 接入其平台，服务营销团队在数据协作、受众激活和营销工作流中的自动化需求。",
-      "date": "2026-06-17",
-      "url": "https://www.streetinsider.com/Corporate%2BNews/LiveRamp%2Blaunches%2Bpartner%2Bprogram%2Bfor%2BAI%2Bagent%2Bdeployment/26657353.html",
+      "company": "Amazon Ads",
+      "title": "Amazon Ads 联手 FreeWheel",
+      "summary": "Amazon Ads 与 FreeWheel 推出 Amazon Publisher Cloud 新能力 Outcome Optimizer，FreeWheel 成为首个广告服务器伙伴，帮助流媒体发布商用亚马逊信号优化 CTV 成效。",
+      "date": "2026-06-19",
+      "url": "https://advertising.amazon.com/library/news/amazon-publisher-cloud-outcome-optimizer",
       "is_official": false
     }
   ],
   "quick": [
     {
-      "company": "DoubleVerify",
-      "title": "DoubleVerify发布AI引擎DV Neura",
-      "summary": "DoubleVerify 推出 DV Neura，定位为驱动媒体质量和广告效果的动态 AI 引擎，用于强化其验证、品牌安全、注意力和效果衡量等核心能力。",
-      "date": "2026-06-17",
-      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOaFgzZUl2azJIUnprN1RNMW45bFlqVG4yaWRsY0tXQjE2MjFmTHdLazdsVVcyWFE2ZEJqSFlDRndOQ0VrRlJ3RFJfUV9JV1NOcUtPMXdYZ010OHowcXN3NWh1S0luS3JKU0J6QkowQnpqVVNFZXdIS0NULXZBTzVOSENLS2dDTW45QlE4RjVEQUJqdVE1ZWlITWdqZTQzeGd6czdEdzlpQ3hnM1lCUzc1VXVlRzNxM1pwNWpXb2xveWhxcVQtTU1GV0pOSVhjX0RuUUUyU2FZQWktTlhrV0ltRkZBa3ZfMjNFMHRfOWlQeXhiU1hzS1c4aVRDVzJ5V1ZSQ3VQTng3YzlxWUVKbFkwb3V3S3puaTlVMkZwS3g4c01fbU4zVHViV3dLaW5BQQ?oc=5",
+      "company": "Kroger Precision Marketing",
+      "title": "Kroger Precision Marketing 推出 TikTok 自助广告",
+      "summary": "Kroger Precision Marketing 宣布与 TikTok 推出自助式广告能力，广告主可结合 Kroger 零售媒体数据与 TikTok 平台触达，扩展社交渠道投放。",
+      "date": "2026-06-19",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMWV5aGZMenc2Q2NsYjFCVWNxMjA4WlFlcnhlUzdlRVN4M3hNV2tqZm5PVVlTTzdMX1pLQWkycTd1TUdadnJuS3R2b294bFRDNGttVzI2ZmFCOTBydHpXeWIwR1FJWXNRRm80THcwOGhLMXVnTldfNllkQmlpb2Z0Y19KeFI1N1k4dEM4dEhpYjBhblpYS0h0TVdBWUlMVE5heGtFdlJzcS1ZNjhSUjcwVUpZd1daQWxlNTBSczd0b1FiMk05TmZhYXB3?oc=5",
       "is_official": false
     },
     {
-      "company": "Roku",
-      "title": "Smartly与Roku打通CTV效果投放",
-      "summary": "Smartly.io 与 Roku 合作，把社交媒体效果广告的创意、优化和投放方法扩展到家庭大屏，帮助广告主在 Roku CTV 环境中执行更偏效果导向的广告活动。",
+      "company": "PubMatic",
+      "title": "PubMatic 推出独立创作者 CTV 市场",
+      "summary": "PubMatic 发布 Creator Marketplace，面向独立创作者媒体公司的优质 CTV 库存；FreeWheel 成为首个广告服务器合作伙伴，支持跨平台集成与程序化交易。",
+      "date": "2026-06-19",
+      "url": "https://www.netinfluencer.com/ad-tech-company-pubmatic-launches-programmatic-ctv-marketplace-for-indie-creator-publishers/",
+      "is_official": false
+    },
+    {
+      "company": "Roundel (Target)",
+      "title": "Target Roundel 试点 DirecTV 零售媒体合作",
+      "summary": "Target 旗下零售媒体网络 Roundel 正与 DirecTV 试点合作，意味着其零售数据与广告能力可能延伸到电视/CTV渠道，值得关注线性电视与RMN预算融合。",
       "date": "2026-06-18",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeTRtbVRTS29jaDlrdlFWcEJNQk5aTXptdjdQRDdtTEV0WWx2SUdWNmlJOUxqNTZUaGdiWjhveXNOQk5XZlVwblFIM3RvZm9tTDF6YUZlSFh6OEt2aFI3b29kVkdqbFl4eWYyVzhLSVJNQzZ4Q1NRZ1M1UVFUbkFPMUptZnJVbzNSTEtQV0ExRGduaS1Cb1dPQnpNWGY4VU96LUs1eEFhNENMVm9hR0E?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQX2IzT1lGV3JtS2QxZTM1UGVSUkIwODZ0NFFhRm90ZWtLU3NhczNGU0pqRWRkSGZ5cDQ0Z0p5WWpSTHpNSENMdVkyMkdkZWpUU1ZSMjFiNHByaHpLaVNaaWFVcHpZa3FGNDJLdzJFT2FiQS02NEdoTkRPTXJUMTJMQnFuRnFSNnd0YWpRdGJQMFNlUG8?oc=5",
       "is_official": false
     },
     {
       "company": "行业资讯",
-      "title": "PubMatic推出Creator Marketplace",
-      "summary": "PubMatic开放Creator Marketplace，把独立创作者CTV库存接入程序化交易；报道还提到Walmart Connect的Connect Select将PubMatic列为四家SSP伙伴之一。",
-      "date": "2026-06-21",
-      "url": "https://ppc.land/pubmatics-creator-marketplace-opens-programmatic-ctv-to-independent-creators/",
+      "title": "Teads发布CTV Ensemble套件",
+      "summary": "Teads推出CTV Ensemble，将HomeScreen与InStream CTV格式统一到一套方案，提供优质CTV供应、动态创意和AI驱动的全漏斗投放编排。",
+      "date": "2026-06-18",
+      "url": "https://www.stocktitan.net/news/TEAD/teads-launches-ctv-ensemble-for-unified-omnichannel-9gvh9sthhg3r.html",
       "is_official": false
     },
     {
-      "company": "Taboola",
-      "title": "Taboola推出AI答案引擎广告平台",
-      "summary": "Taboola 发布面向 AI Answer Engines、对话式 AI、聊天机器人和虚拟助手的广告平台，基于其 DeeperDive 商业化能力，拓展 AI 搜索与回答场景库存。",
-      "date": "2026-06-18",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOEg5em5YNm1hQlAxdGlHc3lvaFU5YkdGZTVkeFp3MkdmN3MzZFAyZHVQMDI2UlI4SHZUeWl3QVgzUlBsYnJWbDFFbmprVGNDc0swOXJ4UWVZZTFkYWRRZHNBTjRSdmNnS1hPWWZVeS03am45Nkpza29tNl9ZQ3FNUWpXNXd0dFV0R3ZSTkdiVWR3cHBkMEJxcUpYUjYzc01BSHhLS0ZKV2JBR29BbDR6MDNMRlZ4NWpMUnBUR3BVdEFQNjRZdXFRS05n?oc=5",
+      "company": "AppsFlyer",
+      "title": "AppsFlyer 发布网页效果测量",
+      "summary": "AppsFlyer 推出 Web Performance Measurement，将其移动归因框架扩展到网页广告活动，统一 Web 与 App 测量，并减少跨端报表差异。",
+      "date": "2026-06-15",
+      "url": "https://marketech-apac.com/appsflyer-launches-web-performance-measurement-to-unify-web-and-mobile-attribution/",
       "is_official": false
     },
     {
       "company": "行业资讯",
-      "title": "Walmart Connect一季度增长44%",
-      "summary": "Walmart披露一季度广告业务高增长：全球广告收入增长37%，美国广告收入增长36%，其中Walmart Connect增长44%，反映其电商与零售媒体平台扩张。",
+      "title": "沃尔玛广告Q1全球收入增37%",
+      "summary": "沃尔玛披露Q1广告业务全球收入同比增长37%，美国广告收入增长36%，Walmart Connect增长44%；电商平台扩张继续推动其零售媒体业务。",
       "date": "2026-06-16",
       "url": "https://www.ainvest.com/es/news/walmart-advertising-revenues-surge-commerce-growth-2606/",
-      "is_official": false
-    },
-    {
-      "company": "Kroger Precision Marketing",
-      "title": "Kroger Q1：KPM助推数字增长",
-      "summary": "Kroger 一季度收入超预期，调整后电商销售增长 19%。报道同时提到 Kroger Precision Marketing 等数字业务表现，为其零售媒体收入提供支撑。",
-      "date": "2026-06-18",
-      "url": "https://www.streetinsider.com/Earnings/Kroger%2Bmeets%2Bearnings%2Bexpectations%2C%2Brevenue%2Btops%2Bestimates/26662778.html",
       "is_official": false
     }
   ],
   "cardTitle": "程序化广告周报 | 06/15-06/22",
-  "cardBody": "📌 核心趋势（Top 3）\n\n1. CTV 与视频程序化库存正在从传统流媒体扩展到更多封闭和高价值场景…\n2. 零售媒体网络继续成为大型零售商增长引擎…\n3. AI 正在重塑广告技术栈的入口、优化和验证环节…\n\n━━━━━━━━━━━━━━━━\n\n📰 代表性新闻\n\n1. DoubleVerify发布AI引擎DV Neura\n2. Smartly与Roku打通CTV效果投放\n3. PubMatic推出Creator Marketplace\n4. Taboola推出AI答案引擎广告平台\n5. Walmart Connect一季度增长44%\n6. Kroger Q1：KPM助推数字增长\n\n👉 点击下方按钮查看完整报告",
+  "cardBody": "📌 核心趋势（Top 3）\n\n1. CTV 广告控制权继续向平台、操作系统和供应端基础设施集中…\n2. CTV 供应正在被进一步产品化和程序化…\n3. 广告质量、透明度和数据可信度成为买卖双方共同的基础设施投资方向…\n\n━━━━━━━━━━━━━━━━\n\n📰 代表性新闻\n\n1. Kroger Precision Marketing 推出 TikTok 自助广告\n2. PubMatic 推出独立创作者 CTV 市场\n3. Target Roundel 试点 DirecTV 零售媒体合作\n4. Teads发布CTV Ensemble套件\n5. AppsFlyer 发布网页效果测量\n6. 沃尔玛广告Q1全球收入增37%\n\n👉 点击下方按钮查看完整报告",
   "buttonText": "📊 查看完整周报",
   "pcUrl": "https://wmwm1ok.github.io/programmatic-news-weekly-publish/",
   "mobileUrl": "https://wmwm1ok.github.io/programmatic-news-weekly-publish/"
