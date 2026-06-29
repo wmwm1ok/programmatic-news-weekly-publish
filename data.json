@@ -4,90 +4,90 @@
     "end": "2026-06-29"
   },
   "report_url": "https://wmwm1ok.github.io/programmatic-news-weekly-publish/",
-  "generated_at": "2026-06-29 08:05",
+  "generated_at": "2026-06-29 15:50",
   "stats": {
-    "total_kept": 16,
-    "competitor_companies": 10,
-    "industry_count": 5
+    "total_kept": 27,
+    "competitor_companies": 18,
+    "industry_count": 2
   },
   "highlights": [
     {
-      "company": "行业资讯",
-      "title": "Walmart收购Vibe.co扩展CTV自助投放",
-      "summary": "Walmart拟收购法国自助式流媒体电视广告平台Vibe.co，将其并入Walmart Connect商业媒体生态，面向中小品牌提供CTV投放、受众和闭环衡量能力。",
+      "company": "FreeWheel",
+      "title": "FreeWheel 发布电视广告 AI 视角",
+      "summary": "FreeWheel 讨论 AI 在电视广告中的买方、卖方与观众视角，覆盖 TV/CTV 广告的计划、交易、库存变现和观看体验，对平台评估 AI 能力落地场景有业务参考。",
+      "date": "2026-06-22",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMV9NZlRTWWdFUk1UemY0Zk1VZ09JRE9wZ3VSQmtyYXNGMzdjZFFmN0tlNU0tbFpmVEpDMC1kdlNZU0JSNks4T29fdmZwXzJ1ZU95TUhGQ2xmMThDcHRhRzQzTjlTNklSaDhoSnZKbGR1ZjV3d0ltZ1dEb1RSbUduU3YzRG9pSTJpTUFnTkJSa2FtM1k5N2tqOGNiRXJuZndtTGx3SWFYdw?oc=5",
+      "is_official": true
+    },
+    {
+      "company": "Tenjin",
+      "title": "Tenjin 讲解 AI 辅助 SDK 集成",
+      "summary": "Tenjin 发布面向开发者的指南，说明如何用 AI 助手完成 SDK 集成相关工作。该内容与移动归因、SDK 接入效率和客户实施流程相关，适合客户成功与技术支持团队关注。",
+      "date": "2026-06-26",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUnRFanlISVVwNDhSd2R4R20zWXVYWXROdnJZVG8tMzJITjBqNENFS3lwbUxQTERMaC0tMHB1dmRkSUFEZG5QWE5VOUVZNHBybWE3b1JPb2prdmxDNXBWSXhEc0Q2dTZtQUV2LV9YWXhnTjdMWld0NVJrVHVBdTZyalR3?oc=5",
+      "is_official": true
+    },
+    {
+      "company": "OpenX",
+      "title": "OpenX 发布 OpenX IQ AI 决策套件",
+      "summary": "OpenX 推出 OpenX IQ，整合 AI 与机器学习能力，用于定制化媒体决策。该套件强化 SSP 侧的流量评估、交易优化和买卖双方的程序化投放效率。",
       "date": "2026-06-23",
-      "url": "https://www.adexchanger.com/tv/walmart-buys-vibe-co-to-woo-smbs-to-streaming/",
-      "is_official": false
-    },
-    {
-      "company": "IAS",
-      "title": "IAS 发布面向发布商的 Quality Connect",
-      "summary": "Integral Ad Science 宣布 Quality Connect 全面可用，该产品面向发布商提供透明度与优化能力，把 AI 驱动的媒体质量信号连接到实际业务结果。",
-      "date": "2026-06-22",
-      "url": "https://cmofirst.com/marketing/ias-expands-publisher-intelligence-with-quality-connect/",
-      "is_official": false
-    },
-    {
-      "company": "AppsFlyer",
-      "title": "AppsFlyer 获 Moloco 等投资推进 AI 测量",
-      "summary": "AppsFlyer 宣布与 Moloco、Google、Meta 和 Unity 达成投资协议，用于推进 AI 驱动广告测量和跨平台归因，强调保持独立测量定位。",
-      "date": "2026-06-22",
-      "url": "https://www.appsflyer.com/company/newsroom/pr/appsflyer-investment-moloco-google-meta-unity/",
-      "is_official": false
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbEgxVV8wYWdhclZzaG96NXpocUlJREg3eTlWX0Uwcy1WRmtEMXNTbkhvWnZRTjZSSFY1bXZ4YmNtSWl2enYwc19zN0tBLUVYVWtWNWhyZ1c2LXR6QlZLcFFLTVhuOC1iVXZFWlc1LUVMdFBlaUFONkMtNlY0SjNMb2VrVnFMMUFob1p6M3E5TUNzcGNxWU9DVndEN3FkaVRULXQ2ZkNQdUhQSHRmT0lWLVNoQ3F0b3JFVDhYWTlJUTRfMWtUdG1meTVXdnJJMXMwYXVFdUlYWXU2V1R6VzNvRA?oc=5",
+      "is_official": true
     }
   ],
   "quick": [
     {
-      "company": "行业资讯",
-      "title": "Kroger与TikTok打通购物数据定向",
-      "summary": "Kroger Precision Marketing与TikTok合作，广告主可在TikTok自助工具中基于Kroger购物者购买数据做定向投放，扩大零售媒体网络在站外社交渠道的可用性。",
-      "date": "2026-06-25",
-      "url": "https://simplywall.st/stocks/us/consumer-retailing/nyse-kr/kroger/health",
-      "is_official": false
-    },
-    {
-      "company": "OpenX",
-      "title": "OpenX 发布 OpenX IQ 智能决策套件",
-      "summary": "OpenX 推出 OpenX IQ，一组 AI 与机器学习能力，作为 SSP 智能层支持买方定制化媒体决策，提升控制力、投放表现并减少媒体浪费。",
-      "date": "2026-06-23",
-      "url": "https://jp.advfn.com/exchanges/share-news/98789013/openx-launches-openx-iq-a-suite-of-ai-and-machine",
-      "is_official": false
-    },
-    {
-      "company": "行业资讯",
-      "title": "Samsung Ads接入Amazon互动CTV技术",
-      "summary": "Samsung Ads在Samsung TV Plus推出可购物CTV体验，采用Amazon Ads遥控器互动视频广告技术，观众可将商品加入Amazon购物车，连接大屏曝光与零售转化。",
-      "date": "2026-06-23",
-      "url": "https://tvnewscheck.com/business/article/samsung-ads-brings-shoppable-ctv-to-samsung-tv-plus-with-amazon-ads-technology/",
-      "is_official": false
-    },
-    {
       "company": "FreeWheel",
-      "title": "FreeWheel 推视频广告 AI Agent 基础设施",
-      "summary": "FreeWheel 发布面向 premium video 广告买卖的 AI Agent Infrastructure，并与 PMG 试点；该能力延续其 CES 展示的跨平台 agentic AI 媒体购买方向。",
+      "title": "FreeWheel 聚焦合作伙伴 Swivel",
+      "summary": "FreeWheel 发布 Partner Spotlight，对合作伙伴 Swivel 进行问答，内容涉及电视广告生态中的合作模式与平台能力，对了解 FreeWheel 伙伴网络和 CTV 交易链路有价值。",
       "date": "2026-06-24",
-      "url": "https://www.centralcharts.com/de/news/5506541-freewheel-launches-ai-agent-infrastructure-to-transform-how-premium-video-advertising-is-bought-and-sold-pilots-with-pmg",
-      "is_official": false
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1adWt4ZVBFWTVRanBFd3FmamhhZHlwN1A2T3RtcGYtVjZnMy04ZDJ3Z1hvcVFBNTRxOUFkR0F3UC1Fd21vekJEZnVXeEs1ZW5ELWlBb3pvLTFObWhLU0FyeTRqa29aY1Y2X0pv?oc=5",
+      "is_official": true
+    },
+    {
+      "company": "Smartly.io",
+      "title": "Smartly 解析预算不变提升增量触达",
+      "summary": "Smartly.io 发布投放方法文章，讨论如何在不增加预算的情况下扩大增量触达，面向使用 Smartly AI Advertising 做跨渠道创意和媒体优化的品牌与代理商。",
+      "date": "2026-06-24",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOVl6dFJGcElUZjQzYXh0UWpQUnhkeVduNXl0dFBFb2NtY1JvUVM0WDNhaHdaRFJSTGRPWk5SMHRPR24zdG5WajBjbVVMM3FkVElNd3FhTkJyalVJSDJoaVZPdkJGbXFEUUlKaDF5cGlZN0htblRxMnNfTnNMZ1phclpodDl6SFR0aWZvNG5ySFRIZw?oc=5",
+      "is_official": true
+    },
+    {
+      "company": "AppsFlyer",
+      "title": "AppsFlyer 获四家公司投资推进独立测量",
+      "summary": "AppsFlyer 宣布获得 Moloco、Google、Meta 和 Unity 投资，用于推进独立广告测量。投资方覆盖移动增长、平台媒体和游戏生态，显示跨平台归因与测量中立性仍是行业重点。",
+      "date": "2026-06-22",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZzZhNDlscW9LaE5iMW1nNlRSZXFWbmdiWFdwWllGeUFOR0ZEQ2gzUFk5SThieUVFUUxPdTJoenpjN3hySkJhSHJLS0l4eTNkSUdtd2tocDZNdGhET0hYNEhTX24tdm1fc2x4MGZMUjR0bUt2VUtzQnc5eEVWTVF5ei1pMXFaZTNnWDlaTXJHeHhGVlV0bm1R?oc=5",
+      "is_official": true
     },
     {
       "company": "DoubleVerify",
-      "title": "DoubleVerify 将 Authentic AdVantage 扩至 Meta、TikTok",
-      "summary": "DoubleVerify 宣布把 AI 驱动的 DV Authentic AdVantage 扩展到 Meta 和 TikTok，帮助广告主在两大平台优化媒体质量、广告表现并证明业务结果。",
+      "title": "DoubleVerify 将 AdVantage 扩至 Meta 与 TikTok",
+      "summary": "DoubleVerify 宣布将 AI 驱动的 DV Authentic AdVantage 扩展至 Meta 和 TikTok，用于优化媒体质量与效果表现。该动作增强其在主流社交平台上的验证、质量管理和投放优化覆盖。",
       "date": "2026-06-22",
-      "url": "https://mx.advfn.com/bolsa-de-valores/NYSE/DV/noticias/98780244/doubleverify-expands-dv-authentic-advantage-to-meta-and-tiktok-an-ai-powered-so",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNbkRSUXR4Yk1yUkl3dmRnQU10QXlTWG1NNklOMWpNWDhpVi1SZ3JoaVN5REVYemFxeFFPazdkWE1oSjg3UWZRSUQzeUh4eFZPYjBWZ0VTRmh4Wml4WWtaM1ItU3N1aVdWNFBOcmRYanU1c0NkZkVuX1lZd0NYTTNvSUVzYlVQS3FCLWpTQkRYU3lJVkV5V1lWWWthRU1MdEhPYzZ4SF9Ma3htNlFKdzliSENYRE44dkNZWjBYeGQ2OG9yeDBwT0RucU9TeHpuVUNRUHRTNWZwU1ZOUzF2YWlSQ3dVeW5YdzBpZjM3YWF5NkxVSGlPQnFsUUtnNDI4UdIBjgJBVV95cUxQaW9XZnlBWU9uZmhUV2xycEI0ZXFIeDE1T045VUhsRHVqQlZlQkV4UGdwbGNlM1lreXBuUlBOdkpkeDBUNC1XQzBHb1g1Ykc1NWJVdTA3RUlPMjB1MU83RUpYczRXMVFha1FXakNzVmQ2VzdKODZwLVRuU1B1NG43dlNhcWFRUG0tN2lEOEZETWMzMG5lN0tqTUhZeFZFa1U4Z29uOFdhSXpKRk55N3VMc0ZiN0dYRnpJOERUbE1KOExyUnB5SjNFd0x0MVZEU0NsSGstMzZKNURNRm1mcG80WUtCM2ZRa3ZNQjJ5LUpyMUN1ZHUwdTRGeHM3bEotTVZXbGUxdUpVNlBpQlNMcVE?oc=5",
+      "is_official": true
+    },
+    {
+      "company": "Amazon Ads",
+      "title": "Comscore 定向人群接入 Amazon DSP",
+      "summary": "Comscore 的 Proximic 程序化定向人群将接入 Amazon DSP，覆盖 CTV、Web 与移动端；MiQ 为首批实施方之一，强化亚马逊 CTV 定向能力。",
+      "date": "2026-06-24",
+      "url": "https://www.marketingbrew.com/stories/comscore-amazon-dsp-ctv-partnership",
       "is_official": false
     },
     {
-      "company": "行业资讯",
-      "title": "DISQO数据显示CTV观看时长增长8%",
-      "summary": "DISQO相关数据称CTV观看时长增长8%，智能电视进入82%的美国家庭；39%的广告后行动发生在立即或数分钟内，为CTV效果衡量和预算迁移提供参考。",
-      "date": "2026-06-28",
-      "url": "https://ppc.land/ctv-gains-8-viewing-time-as-smart-tvs-reach-82-of-us-homes/",
-      "is_official": false
+      "company": "Moloco",
+      "title": "Moloco 助 111Percent 超 D7 ROAS 目标",
+      "summary": "Moloco 公布 111Percent iOS 再营销案例：通过 Moloco Re-engagement Campaign，客户 D7 ROAS 超出目标 291%。该案例体现移动游戏在 iOS 环境下用机器学习做再激活和回收价值。",
+      "date": "2026-06-25",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdF8yUXg5OFVCRGtsbFFZVkJfXzVaNXA3UlZubVVtRVVwQ1p4cnp3Vk94SUdHV0VqbXVZRnNYdGNDVHNWV2pna2JaX2ZVRG5hNGhRYVprZ1RjRTctQlAxa3VVWllEcG1ncW1mYmd4N2ZiSTFpWWtvLWdOcEhNWVNQUjFR?oc=5",
+      "is_official": true
     }
   ],
   "cardTitle": "程序化广告周报 | 06/22-06/29",
-  "cardBody": "📌 核心趋势（Top 3）\n\n1. AI 正从投放优化工具升级为程序化交易基础设施…\n2. 零售媒体正在加速外溢到开放互联网与站外媒体…\n3. CTV 正从品牌曝光渠道转向可购物和闭环转化渠道…\n\n━━━━━━━━━━━━━━━━\n\n📰 代表性新闻\n\n1. Kroger与TikTok打通购物数据定向\n2. OpenX 发布 OpenX IQ 智能决策套件\n3. Samsung Ads接入Amazon互动CTV技术\n4. FreeWheel 推视频广告 AI Agent 基础设施\n5. DoubleVerify 将 Authentic AdVantage 扩至 Meta、TikTok\n6. DISQO数据显示CTV观看时长增长8%\n\n👉 点击下方按钮查看完整报告",
+  "cardBody": "📌 核心趋势（Top 3）\n\n1. 零售媒体正在加速向 CTV 和社交流量外延扩张…\n2. AI 正从广告投放辅助工具升级为程序化交易和营销数据底座…\n3. 独立测量和媒体质量验证的重要性继续上升…\n\n━━━━━━━━━━━━━━━━\n\n📰 代表性新闻\n\n1. FreeWheel 聚焦合作伙伴 Swivel\n2. Smartly 解析预算不变提升增量触达\n3. AppsFlyer 获四家公司投资推进独立测量\n4. DoubleVerify 将 AdVantage 扩至 Meta 与 TikTok\n5. Comscore 定向人群接入 Amazon DSP\n6. Moloco 助 111Percent 超 D7 ROAS 目标\n\n👉 点击下方按钮查看完整报告",
   "buttonText": "📊 查看完整周报",
   "pcUrl": "https://wmwm1ok.github.io/programmatic-news-weekly-publish/",
   "mobileUrl": "https://wmwm1ok.github.io/programmatic-news-weekly-publish/"
